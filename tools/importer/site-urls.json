@@ -261,12 +261,6 @@
       "id": "ed53724ad96bcafed3e964f275f0458bb897b8ce"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/login",
-      "source": "MANUAL",
-      "targetPath": "/de/login",
-      "id": "983ab538883cef58e9023e1c684bfbbb157e6978"
-    },
-    {
       "url": "https://www.fresenius-kabi.com/de/medi1one",
       "source": "MANUAL",
       "targetPath": "/de/medi1one",
