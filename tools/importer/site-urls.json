@@ -1,0 +1,22 @@
+{
+  "originUrl": "https://www.fresenius-kabi.com",
+  "aborted": false,
+  "urls": [
+    {
+      "url": "https://www.fresenius-kabi.com/de/sitemap.xml",
+      "source": "MANUAL",
+      "targetPath": "/de/sitemap-xml",
+      "id": "29509a355b85d6631b03157253dce79973d5d0c9"
+    }
+  ],
+  "lastCrawled": null,
+  "crawlOptions": {
+    "limit": 100,
+    "strategy": "manual",
+    "strategiesAttempted": [
+      "MANUAL"
+    ]
+  },
+  "extractionErrors": [],
+  "errorCountMessage": "none"
+}
