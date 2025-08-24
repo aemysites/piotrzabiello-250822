@@ -1,0 +1,328 @@
+{
+  "originUrl": "https://www.fresenius-kabi.com",
+  "aborted": false,
+  "urls": [
+    {
+      "url": "https://www.fresenius-kabi.com/de/portfolio",
+      "source": "MANUAL",
+      "targetPath": "/de/portfolio",
+      "id": "d0d83e172d310e63a6c9418b62349124039aa55e"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung",
+      "source": "MANUAL",
+      "targetPath": "/de/portfolio/klinische-ernaehrung",
+      "id": "745eab604dbae34dd806e774dc4a478f60e57d94"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung",
+      "source": "MANUAL",
+      "targetPath": "/de/portfolio/klinische-ernaehrung/enterale-ernaehrung",
+      "id": "e5a4f9f4ccdc6f2749d5872a9554423fbf60825b"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente",
+      "source": "MANUAL",
+      "targetPath": "/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente",
+      "id": "e3c8c30904a0d3e94079b0f87a8c00ea63f9c796"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/diben-1-5-kcal-hp",
+      "source": "MANUAL",
+      "targetPath": "/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/diben-1-5-kcal-hp",
+      "id": "f27c098391646c408249f1b52abda5752e34eef0"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/frebini-energy",
+      "source": "MANUAL",
+      "targetPath": "/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/frebini-energy",
+      "id": "a7af19d202f9edba9908eaca5554d811d21cd0a3"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/frebini-energy-fibre",
+      "source": "MANUAL",
+      "targetPath": "/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/frebini-energy-fibre",
+      "id": "7f93f8fd24ee09924fe601c695f1096d723eded2"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/frebini-original",
+      "source": "MANUAL",
+      "targetPath": "/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/frebini-original",
+      "id": "b77240887941b0da6bad3db06039f73e72950e8d"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/frebini-original-fibre",
+      "source": "MANUAL",
+      "targetPath": "/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/frebini-original-fibre",
+      "id": "626d271c11d0d294dacb6f30d02949776f7ef03c"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/freseubin-hepa",
+      "source": "MANUAL",
+      "targetPath": "/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/freseubin-hepa",
+      "id": "b7fe9d0617cada608a1f3ce7438829f573b67452"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/fresubin-1000-complete",
+      "source": "MANUAL",
+      "targetPath": "/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/fresubin-1000-complete",
+      "id": "8427297e661246da9ac246f94fef7a782453244c"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/fresubin-1200-complete",
+      "source": "MANUAL",
+      "targetPath": "/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/fresubin-1200-complete",
+      "id": "b558d7600f0a79a2a240063c5e35cfd8eff8ff15"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/fresubin-1500-complete",
+      "source": "MANUAL",
+      "targetPath": "/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/fresubin-1500-complete",
+      "id": "58e593ef9e9f8c0c7f20ddd312f7b6803b98e0dc"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/fresubin-1800-complete",
+      "source": "MANUAL",
+      "targetPath": "/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/fresubin-1800-complete",
+      "id": "191f8fb94ea8417bde50796bc9234b7a253271e6"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/fresubin-2-kcal-hp",
+      "source": "MANUAL",
+      "targetPath": "/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/fresubin-2-kcal-hp",
+      "id": "27b159653dc02e73648196f0e664cf513dfeb4e0"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/fresubin-2-kcal-hp-fibre",
+      "source": "MANUAL",
+      "targetPath": "/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/fresubin-2-kcal-hp-fibre",
+      "id": "be935c59df18b15e39bda42a41a5fa04f3205206"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/fresubin-2250-complete",
+      "source": "MANUAL",
+      "targetPath": "/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/fresubin-2250-complete",
+      "id": "efb5dce696b1c4c954d47625a92580d1ef29612c"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/fresubin-energy",
+      "source": "MANUAL",
+      "targetPath": "/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/fresubin-energy",
+      "id": "6b1698818711abaada1fe392e5879098e3353b1c"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/fresubin-energy-fibre",
+      "source": "MANUAL",
+      "targetPath": "/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/fresubin-energy-fibre",
+      "id": "1c3612a32ecfb6dd7b72bdf7bd2fbcd9a5d42d17"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/fresubin-hp-energy",
+      "source": "MANUAL",
+      "targetPath": "/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/fresubin-hp-energy",
+      "id": "f58a77126fcd7544595326e6d9472907d3c9e1ce"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/fresubin-intensive",
+      "source": "MANUAL",
+      "targetPath": "/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/fresubin-intensive",
+      "id": "7e4d461a9be07516842d3b9997345eb69c92cd14"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/fresubin-original",
+      "source": "MANUAL",
+      "targetPath": "/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/fresubin-original",
+      "id": "7f14abf3b21c3d3552bb150f9da7862d8cf9e4a4"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/fresubin-original-fibre",
+      "source": "MANUAL",
+      "targetPath": "/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/fresubin-original-fibre",
+      "id": "b4583f3433d5905eab611b371a0d1f528bb99f35"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/fresubin-soya-fibre",
+      "source": "MANUAL",
+      "targetPath": "/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/fresubin-soya-fibre",
+      "id": "aa67587f1100ae59607946e79a8a80ba65af3c76"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/intestamin",
+      "source": "MANUAL",
+      "targetPath": "/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/intestamin",
+      "id": "6914b013d932e2a2adc86558f47e52b320acd8a1"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/reconvan",
+      "source": "MANUAL",
+      "targetPath": "/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/reconvan",
+      "id": "75d33e13369f9f0380038c887b55a5f63d21ffe2"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/survimed-opd-hn",
+      "source": "MANUAL",
+      "targetPath": "/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/survimed-opd-hn",
+      "id": "56923fb0190cfb8db7b54b8e520dbbb4e7b8a91e"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen",
+      "source": "MANUAL",
+      "targetPath": "/de/unternehmen",
+      "id": "601c184b0480748fc7681e3a85cd9c6198e96af7"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen/einblicke",
+      "source": "MANUAL",
+      "targetPath": "/de/unternehmen/einblicke",
+      "id": "3b9e00586f145e9a3a126a4d3287eb483547df35"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen/einblicke/leben-mit-parenteraler-ernaehrung",
+      "source": "MANUAL",
+      "targetPath": "/de/unternehmen/einblicke/leben-mit-parenteraler-ernaehrung",
+      "id": "d51d95a05d992ce29683c84169f6e096b591a84c"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen/einblicke/schule-und-neuanfaenge--mit-heimparenteraler-ernaehrung-durchs-l",
+      "source": "MANUAL",
+      "targetPath": "/de/unternehmen/einblicke/schule-und-neuanfaenge-mit-heimparenteraler-ernaehrung-durchs-l",
+      "id": "68877c209e3a3d9d93ddaf7d6d06cb1e4bb50d38"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen/einblicke/zwei-jahrzehnte-als-aussergewoehnlicher-ausbilder",
+      "source": "MANUAL",
+      "targetPath": "/de/unternehmen/einblicke/zwei-jahrzehnte-als-aussergewoehnlicher-ausbilder",
+      "id": "f276e4e176d3dd0f06cd8c47608273d3258307e5"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen/fresenius-kabi-ag",
+      "source": "MANUAL",
+      "targetPath": "/de/unternehmen/fresenius-kabi-ag",
+      "id": "7ccb8d716de2f0c71ef406d54cde6b03e5155f37"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen/fresenius-kabi-deutschland",
+      "source": "MANUAL",
+      "targetPath": "/de/unternehmen/fresenius-kabi-deutschland",
+      "id": "90ab7072cb900b9de13d38336a875b81a9ee3579"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen/qualitaetsmanagement",
+      "source": "MANUAL",
+      "targetPath": "/de/unternehmen/qualitaetsmanagement",
+      "id": "dfc65db4853b9600ff0afe500607d153a2e40301"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen/reach",
+      "source": "MANUAL",
+      "targetPath": "/de/unternehmen/reach",
+      "id": "6523cdbbc6c24f7f2d12d0076826b57b7d420d0c"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen/soziales-engagement",
+      "source": "MANUAL",
+      "targetPath": "/de/unternehmen/soziales-engagement",
+      "id": "82ce1f06fdef190ee6ec04c0ed8d169d6c64287b"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen/soziales-engagement/aktivhelfentage",
+      "source": "MANUAL",
+      "targetPath": "/de/unternehmen/soziales-engagement/aktivhelfentage",
+      "id": "a4d4a053de05507bd8888883c1a1780bc54b0d9b"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen/soziales-engagement/aktivhelfentage/aktivhelfen_tag_in_hamburg_2023",
+      "source": "MANUAL",
+      "targetPath": "/de/unternehmen/soziales-engagement/aktivhelfentage/aktivhelfen-tag-in-hamburg-2023",
+      "id": "d8a3ae9052c8dbf015e867a152aaf0b5cc80f336"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen/soziales-engagement/aktivhelfentage/aktivhelfen_tag_in_stutgart_2023",
+      "source": "MANUAL",
+      "targetPath": "/de/unternehmen/soziales-engagement/aktivhelfentage/aktivhelfen-tag-in-stutgart-2023",
+      "id": "86935a856225fc5c476521c69bf358ac739c8a1a"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen/soziales-engagement/aktivhelfentage/aktivhelfen-tag-in-cottbus-2024",
+      "source": "MANUAL",
+      "targetPath": "/de/unternehmen/soziales-engagement/aktivhelfentage/aktivhelfen-tag-in-cottbus-2024",
+      "id": "70bb9ed673291b475821725da5b7b747445ebc38"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen/soziales-engagement/aktivhelfentage/aktivhelfen-tag-in-der-lochmuehle-2023",
+      "source": "MANUAL",
+      "targetPath": "/de/unternehmen/soziales-engagement/aktivhelfentage/aktivhelfen-tag-in-der-lochmuehle-2023",
+      "id": "9c9d4834e2fa1f55166c213b260c17058ef7823a"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen/soziales-engagement/aktivhelfentage/aktivhelfen-tag-in-friedberg",
+      "source": "MANUAL",
+      "targetPath": "/de/unternehmen/soziales-engagement/aktivhelfentage/aktivhelfen-tag-in-friedberg",
+      "id": "ebeb8f1f48e403605b53c6aeeb0b98a27d4d4e6e"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen/soziales-engagement/aktivhelfentage/der-aktivhelfen-tag-in-usingen",
+      "source": "MANUAL",
+      "targetPath": "/de/unternehmen/soziales-engagement/aktivhelfentage/der-aktivhelfen-tag-in-usingen",
+      "id": "740b5fae6a3e77b1c6cabb0182065fafb399124e"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen/soziales-engagement/spenden",
+      "source": "MANUAL",
+      "targetPath": "/de/unternehmen/soziales-engagement/spenden",
+      "id": "52f14e6e370dc492c58cd0dd2148e2e93caae240"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen/soziales-engagement/zuwendungen-an-patientenorganisationen",
+      "source": "MANUAL",
+      "targetPath": "/de/unternehmen/soziales-engagement/zuwendungen-an-patientenorganisationen",
+      "id": "78d40c28689f7988004d250cd5a8e1ff5f2759d0"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen/transparenzinitiative",
+      "source": "MANUAL",
+      "targetPath": "/de/unternehmen/transparenzinitiative",
+      "id": "96c89ec201153a903ecf5ff6ebe0f76dd417cf8d"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen/unsere-verantwortung",
+      "source": "MANUAL",
+      "targetPath": "/de/unternehmen/unsere-verantwortung",
+      "id": "c683a6cb2187d0027f4d3f85170f830bcac2396c"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen/unsere-verantwortung/menschenrechte-wahren",
+      "source": "MANUAL",
+      "targetPath": "/de/unternehmen/unsere-verantwortung/menschenrechte-wahren",
+      "id": "cedec8716951daa2d99e54423e310eb430535d1d"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen/unsere-verantwortung/nachhaltige-entwicklung",
+      "source": "MANUAL",
+      "targetPath": "/de/unternehmen/unsere-verantwortung/nachhaltige-entwicklung",
+      "id": "93b034f7e7e3754f90ef307355a793a74cc2e19b"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen/unsere-verantwortung/umwelt",
+      "source": "MANUAL",
+      "targetPath": "/de/unternehmen/unsere-verantwortung/umwelt",
+      "id": "bead984ba55ab7879a71f26adf8d153a293fbe2c"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen/unternehmensgeschichte",
+      "source": "MANUAL",
+      "targetPath": "/de/unternehmen/unternehmensgeschichte",
+      "id": "079c81f98cd2f1ea338794f94d4da7c31175b82d"
+    }
+  ],
+  "lastCrawled": null,
+  "crawlOptions": {
+    "limit": 100,
+    "strategy": "manual",
+    "strategiesAttempted": [
+      "MANUAL"
+    ]
+  },
+  "extractionErrors": [],
+  "errorCountMessage": "none"
+}
