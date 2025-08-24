@@ -1,0 +1,628 @@
+{
+  "originUrl": "https://www.fresenius-kabi.com",
+  "aborted": false,
+  "lastCrawled": "https://www.fresenius-kabi.com/de",
+  "urls": [
+    {
+      "url": "https://www.fresenius-kabi.com/",
+      "source": "CRAWL",
+      "targetPath": "/",
+      "id": "a6ef1c412a6a474f4e09a2b645743828b6498d50"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/ar",
+      "source": "CRAWL",
+      "targetPath": "/ar",
+      "id": "cda2576697dd6a5413c30d0531f79293dde5adcf"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/at",
+      "source": "CRAWL",
+      "targetPath": "/at",
+      "id": "c333104524f16532ecef8896837d5c0ac90bd888"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/at/downloads",
+      "source": "CRAWL",
+      "targetPath": "/at/downloads",
+      "id": "b098dae1d203ec89b8b3788a06530811dace88fd"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/at/kontakt",
+      "source": "CRAWL",
+      "targetPath": "/at/kontakt",
+      "id": "48240cc7dbd4477f83ded5afd1e222bac9c15664"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/au",
+      "source": "CRAWL",
+      "targetPath": "/au",
+      "id": "8081224ed3f894b2ea84a2d5d8133340bfbdce35"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/br",
+      "source": "CRAWL",
+      "targetPath": "/br",
+      "id": "a5c361fe4ea9e6125881f141285bd29e187aaf8f"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/cl",
+      "source": "CRAWL",
+      "targetPath": "/cl",
+      "id": "08ccac521c393691d2e9dcb943f487a8cd9ed60d"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/cn",
+      "source": "CRAWL",
+      "targetPath": "/cn",
+      "id": "d589198300444c0d716d52ec2d2a232f85dd1c8c"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/co",
+      "source": "CRAWL",
+      "targetPath": "/co",
+      "id": "54eb02af6e2ce72233da13e1385e458bc678f992"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/cz",
+      "source": "CRAWL",
+      "targetPath": "/cz",
+      "id": "d9abc6b208739211cdf4c3acbdb52d5f21188c5b"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de",
+      "source": "CRAWL",
+      "targetPath": "/de",
+      "id": "7fa8da69f71245979befd916028f8d85c5fb10d3"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de-ch",
+      "source": "CRAWL",
+      "targetPath": "/de-ch",
+      "id": "25f6855ad4802287aaba33920b25edf20089c6f6"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de-ch/kontakt",
+      "source": "CRAWL",
+      "targetPath": "/de-ch/kontakt",
+      "id": "b044259a7bccb5f42b19202f0fccc05a61f03bc8"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/auftragserfassung-und-logistik.html",
+      "source": "CRAWL",
+      "targetPath": "/de/auftragserfassung-und-logistik",
+      "id": "1dfa73141d39439a6410739c3d011fb557536493"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/datenschutz",
+      "source": "CRAWL",
+      "targetPath": "/de/datenschutz",
+      "id": "889b2dbf81d657bad5de1049e076828b712d1cb4"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/dienstleistungen",
+      "source": "CRAWL",
+      "targetPath": "/de/dienstleistungen",
+      "id": "3099d69be9779332adbbc4f48702618ed53c1fcd"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/dienstleistungen/fresenius-kabi-homecare-ausserklinische-versorgung",
+      "source": "CRAWL",
+      "targetPath": "/de/dienstleistungen/fresenius-kabi-homecare-ausserklinische-versorgung",
+      "id": "7a0fcb409335eb99420a9da60fb994aa5632d952"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/dienstleistungen/wissensakademie",
+      "source": "CRAWL",
+      "targetPath": "/de/dienstleistungen/wissensakademie",
+      "id": "2d262b1144513d0eb1aa54e1ab3884a317c3c7cd"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/downloads",
+      "source": "CRAWL",
+      "targetPath": "/de/downloads",
+      "id": "6b006d6cc03052c069d0d7823add6580f015e08a"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/downloads/downloadbereich-logo-fresenius-kabi-deutschland",
+      "source": "CRAWL",
+      "targetPath": "/de/downloads/downloadbereich-logo-fresenius-kabi-deutschland",
+      "id": "cc94da2a27697fadb7e9a6c411bf18ba87e23e6c"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/downloads/produktbilder-klinische-ernaehrung",
+      "source": "CRAWL",
+      "targetPath": "/de/downloads/produktbilder-klinische-ernaehrung",
+      "id": "bfa46fd446268e71b4e611fbe3a1f77fd3018541"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/downloads/produktbilder-medizinprodukte",
+      "source": "CRAWL",
+      "targetPath": "/de/downloads/produktbilder-medizinprodukte",
+      "id": "c8bd8c9ec14f3fedbcd2c842e0190e19075eb4bc"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/impressum",
+      "source": "CRAWL",
+      "targetPath": "/de/impressum",
+      "id": "3945960f1158e915144ccf6918d4bf80e2408a76"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/karriere",
+      "source": "CRAWL",
+      "targetPath": "/de/karriere",
+      "id": "83be2a4a8cfc81687352b8ad78b1ec3a4bbc9d7d"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/kontakt",
+      "source": "CRAWL",
+      "targetPath": "/de/kontakt",
+      "id": "0baa01f0f682a2bb574d6346cad69ea436c99764"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/kontakt/kontaktformular",
+      "source": "CRAWL",
+      "targetPath": "/de/kontakt/kontaktformular",
+      "id": "a23f65c6471da153e9e1c836be039f6e05762e5e"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/kontakt/kontaktformular_datenschutz",
+      "source": "CRAWL",
+      "targetPath": "/de/kontakt/kontaktformular-datenschutz",
+      "id": "a32fedc2e89a0854e739a07d90205d61b1d72697"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/kontakt/kundenberatung",
+      "source": "CRAWL",
+      "targetPath": "/de/kontakt/kundenberatung",
+      "id": "b3593ac51c498272f862e51fff1a8db47840c0cc"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/kontakt/medizinische-notfaelle",
+      "source": "CRAWL",
+      "targetPath": "/de/kontakt/medizinische-notfaelle",
+      "id": "c65c3c606cf938f64e0ecdda2e26974d112c923c"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/kontakt/technischer-service",
+      "source": "CRAWL",
+      "targetPath": "/de/kontakt/technischer-service",
+      "id": "b5f6e3d269a33664d4b53b84ce1326bbd3467ea8"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/kontakt/unternehmen-kontakt",
+      "source": "CRAWL",
+      "targetPath": "/de/kontakt/unternehmen-kontakt",
+      "id": "ed53724ad96bcafed3e964f275f0458bb897b8ce"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/news",
+      "source": "CRAWL",
+      "targetPath": "/de/news",
+      "id": "e96b35c63f6108caabe850730209669013e130c9"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/portfolio",
+      "source": "CRAWL",
+      "targetPath": "/de/portfolio",
+      "id": "d0d83e172d310e63a6c9418b62349124039aa55e"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/portfolio/biopharma",
+      "source": "CRAWL",
+      "targetPath": "/de/portfolio/biopharma",
+      "id": "00943795adbe2c1fc3c063f33376733f4a24eab4"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/portfolio/infusionen",
+      "source": "CRAWL",
+      "targetPath": "/de/portfolio/infusionen",
+      "id": "aaf549f16210727b00a00710260e1ca5d3ff1c25"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/portfolio/intravenoese-arzneimittel",
+      "source": "CRAWL",
+      "targetPath": "/de/portfolio/intravenoese-arzneimittel",
+      "id": "fc5384c7e65e697df0edd85afd47e1a7b2da1884"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung",
+      "source": "CRAWL",
+      "targetPath": "/de/portfolio/klinische-ernaehrung",
+      "id": "745eab604dbae34dd806e774dc4a478f60e57d94"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte",
+      "source": "CRAWL",
+      "targetPath": "/de/portfolio/medizinprodukte",
+      "id": "cb66428222e48f5bd58e695616f13bb0c6590692"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/pressemitteilungen",
+      "source": "CRAWL",
+      "targetPath": "/de/pressemitteilungen",
+      "id": "1651e856b71b24e360590924a7042e80cb2610fe"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/pressemitteilungen/50-jahre-fresubin",
+      "source": "CRAWL",
+      "targetPath": "/de/pressemitteilungen/50-jahre-fresubin",
+      "id": "560584bbf4024a1d19c9d71c1d3cd485ecf64f4a"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/pressemitteilungen/das-neue-autofusion-set",
+      "source": "CRAWL",
+      "targetPath": "/de/pressemitteilungen/das-neue-autofusion-set",
+      "id": "640954aad319eb3c59351b499db2d737321c2ca7"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/pressemitteilungen/launch-neues-biosimilar",
+      "source": "CRAWL",
+      "targetPath": "/de/pressemitteilungen/launch-neues-biosimilar",
+      "id": "144c30a5d7fa7cb18b2617e2ff30a17933e76131"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/pressemitteilungen/pflegemanagement-award-2025",
+      "source": "CRAWL",
+      "targetPath": "/de/pressemitteilungen/pflegemanagement-award-2025",
+      "id": "67cf826b6ca91e679084638cb249abdf4a38b44e"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/pressemitteilungen/pflegemanagement-award-2026",
+      "source": "CRAWL",
+      "targetPath": "/de/pressemitteilungen/pflegemanagement-award-2026",
+      "id": "d0bd78c424e5d3f421022a141aca75491abf6b58"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/pressemitteilungen/sideral-andauernde-muedigkeit",
+      "source": "CRAWL",
+      "targetPath": "/de/pressemitteilungen/sideral-andauernde-muedigkeit",
+      "id": "a0c8e66ecfb6b31fa68e6dcb414621b937d77bd9"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/rechtliche-hinweise",
+      "source": "CRAWL",
+      "targetPath": "/de/rechtliche-hinweise",
+      "id": "664fde484c754011dd673f31aba4b1181f81688f"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen",
+      "source": "CRAWL",
+      "targetPath": "/de/unternehmen",
+      "id": "601c184b0480748fc7681e3a85cd9c6198e96af7"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen/soziales-engagement/aktivhelfentage",
+      "source": "CRAWL",
+      "targetPath": "/de/unternehmen/soziales-engagement/aktivhelfentage",
+      "id": "a4d4a053de05507bd8888883c1a1780bc54b0d9b"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen/soziales-engagement/aktivhelfentage/aktivhelfen-tag-in-cottbus-2024",
+      "source": "CRAWL",
+      "targetPath": "/de/unternehmen/soziales-engagement/aktivhelfentage/aktivhelfen-tag-in-cottbus-2024",
+      "id": "70bb9ed673291b475821725da5b7b747445ebc38"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen/soziales-engagement/aktivhelfentage/aktivhelfen-tag-in-friedberg",
+      "source": "CRAWL",
+      "targetPath": "/de/unternehmen/soziales-engagement/aktivhelfentage/aktivhelfen-tag-in-friedberg",
+      "id": "ebeb8f1f48e403605b53c6aeeb0b98a27d4d4e6e"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen/soziales-engagement/spenden",
+      "source": "CRAWL",
+      "targetPath": "/de/unternehmen/soziales-engagement/spenden",
+      "id": "52f14e6e370dc492c58cd0dd2148e2e93caae240"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen/unsere-verantwortung",
+      "source": "CRAWL",
+      "targetPath": "/de/unternehmen/unsere-verantwortung",
+      "id": "c683a6cb2187d0027f4d3f85170f830bcac2396c"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/dk",
+      "source": "CRAWL",
+      "targetPath": "/dk",
+      "id": "c03e11727f540c469f7ae989db85955c33125382"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/ec",
+      "source": "CRAWL",
+      "targetPath": "/ec",
+      "id": "8b2e9727ee94a946bdf566c43bef4be020acf923"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/en-ca",
+      "source": "CRAWL",
+      "targetPath": "/en-ca",
+      "id": "3f67e1f706c6d8893fc812594b54ce0ef238954f"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/es",
+      "source": "CRAWL",
+      "targetPath": "/es",
+      "id": "dd0de76cbb04152ce43db9cb46af9692ccd25304"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/fi",
+      "source": "CRAWL",
+      "targetPath": "/fi",
+      "id": "535372b5274bedfbfaedc2566ba9420997b8985b"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/fr",
+      "source": "CRAWL",
+      "targetPath": "/fr",
+      "id": "fa50ed123e27f811653a14b15b99131befa90967"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/gb",
+      "source": "CRAWL",
+      "targetPath": "/gb",
+      "id": "b4c6e38da832b734ae5c7f72d7f212662ffc8089"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/hk",
+      "source": "CRAWL",
+      "targetPath": "/hk",
+      "id": "f85d061a1490f3fd6ad3a3e01206f7e61b020f15"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/hr",
+      "source": "CRAWL",
+      "targetPath": "/hr",
+      "id": "fff01068510bc5cc7351debfd4710223f4f4f6b1"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/hu",
+      "source": "CRAWL",
+      "targetPath": "/hu",
+      "id": "b06a4270e50c1466ba0c19821d3b8c218b8b42be"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/id",
+      "source": "CRAWL",
+      "targetPath": "/id",
+      "id": "ec29d0b8cb6584202eb9cc972e4e2664d91df8c1"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/ie",
+      "source": "CRAWL",
+      "targetPath": "/ie",
+      "id": "83126c1a26331c33468dbbaf58b4be499f340905"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/in",
+      "source": "CRAWL",
+      "targetPath": "/in",
+      "id": "434597a64f265105bd3ea20b4b3865ae5e0e4e08"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/it",
+      "source": "CRAWL",
+      "targetPath": "/it",
+      "id": "4229f3ffee2e6708244f34c6f909c0f6a383deec"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/jp",
+      "source": "CRAWL",
+      "targetPath": "/jp",
+      "id": "35a8d07883d8ce4da5fa13444b1cbc5e55f6f52c"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/kr",
+      "source": "CRAWL",
+      "targetPath": "/kr",
+      "id": "653016172ce39e6af84ef1de337a4f736cb5ba26"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/mena",
+      "source": "CRAWL",
+      "targetPath": "/mena",
+      "id": "c6c68851365768769d2e7f759c8d7bfc78dda80e"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/mx",
+      "source": "CRAWL",
+      "targetPath": "/mx",
+      "id": "e9f862971aea868d3a179a0d87eeeca5facd2563"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/my",
+      "source": "CRAWL",
+      "targetPath": "/my",
+      "id": "dd44cbb607bd7af044e4e299ea0f7a445eac08f5"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/nl",
+      "source": "CRAWL",
+      "targetPath": "/nl",
+      "id": "6a4c941786cf81e807cd5cf5965994a08752cd30"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/nl-be",
+      "source": "CRAWL",
+      "targetPath": "/nl-be",
+      "id": "714aa73de3f24c84c4630311979ec4cc717104bc"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/no",
+      "source": "CRAWL",
+      "targetPath": "/no",
+      "id": "e35e531337e01ebfa58d320f2696d87b72e29b12"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/nz",
+      "source": "CRAWL",
+      "targetPath": "/nz",
+      "id": "abd5533d9bf3e6e268cf9aed45ef764c34739786"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/pe",
+      "source": "CRAWL",
+      "targetPath": "/pe",
+      "id": "ed73e6c88913898375bb49066b07a3a69bf08e5f"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/ph",
+      "source": "CRAWL",
+      "targetPath": "/ph",
+      "id": "f70d8a49f206637ed899a6548205af644c6050b6"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/pl",
+      "source": "CRAWL",
+      "targetPath": "/pl",
+      "id": "ffcbb419a7f8d8c47337edd8efddb77867f760f4"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/pt",
+      "source": "CRAWL",
+      "targetPath": "/pt",
+      "id": "604d0dd3d32de20a9b777e9279f615e9371797e0"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/ro",
+      "source": "CRAWL",
+      "targetPath": "/ro",
+      "id": "8079736e8bab120588d1ec0ff776f72daeb67aa9"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/ru",
+      "source": "CRAWL",
+      "targetPath": "/ru",
+      "id": "dedfc7c815fe596bef71675578eff51e61fd32e9"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/se",
+      "source": "CRAWL",
+      "targetPath": "/se",
+      "id": "ceeb101bcb3de2c506148e0fdfd8473c9f08019c"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/sg",
+      "source": "CRAWL",
+      "targetPath": "/sg",
+      "id": "f2a4965af42bd7f1973956e4bdba06274c1ed896"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/sk",
+      "source": "CRAWL",
+      "targetPath": "/sk",
+      "id": "f5e6d319ee1c5137ae347368a6c6f6f9aa6a4677"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/th",
+      "source": "CRAWL",
+      "targetPath": "/th",
+      "id": "b3e1f1e04618574a5f91dc69434b4865adbd41e2"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/tw",
+      "source": "CRAWL",
+      "targetPath": "/tw",
+      "id": "82a0a35562fde6903cdd1fb74981e89cf0806739"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/us",
+      "source": "CRAWL",
+      "targetPath": "/us",
+      "id": "87f0fa27d50c1ac8fdbec0d03ec17401ea2a6dab"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/us/contact",
+      "source": "CRAWL",
+      "targetPath": "/us/contact",
+      "id": "880d0d6dbaadbb06d6ca663a221c0def8ebf835b"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/us/news-and-events",
+      "source": "CRAWL",
+      "targetPath": "/us/news-and-events",
+      "id": "745711c0a8a3f8ebabe152ebe36a53fa493f12c7"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/us/our-impact",
+      "source": "CRAWL",
+      "targetPath": "/us/our-impact",
+      "id": "ca333f793a77384e22ba1deea46d53cc22747b9b"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/us/our-impact/engaging-communities",
+      "source": "CRAWL",
+      "targetPath": "/us/our-impact/engaging-communities",
+      "id": "f55399f54dd38c16830a230be6ceb0acc959242e"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/us/our-impact/engaging-communities/blood-collectors-week",
+      "source": "CRAWL",
+      "targetPath": "/us/our-impact/engaging-communities/blood-collectors-week",
+      "id": "b07c91a14ead6c2b3b34d5f52355810ccc7ecd17"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/us/our-impact/engaging-communities/national-blood-donation-hall-of-fame",
+      "source": "CRAWL",
+      "targetPath": "/us/our-impact/engaging-communities/national-blood-donation-hall-of-fame",
+      "id": "d02cda06ca250fb131c78894a617900bbf5b62c7"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/us/our-impact/improving-access",
+      "source": "CRAWL",
+      "targetPath": "/us/our-impact/improving-access",
+      "id": "591b0686e1707d271028f96d88ea585ec10c7d4a"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/us/our-impact/inspiring-stories",
+      "source": "CRAWL",
+      "targetPath": "/us/our-impact/inspiring-stories",
+      "id": "5ca78327ec9a9a3ed40f37b67e0c49e767896d5e"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/us/products",
+      "source": "CRAWL",
+      "targetPath": "/us/products",
+      "id": "e0b1837bfc7ae4e51513b4817d984e96716d6d32"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/us/products/pharma",
+      "source": "CRAWL",
+      "targetPath": "/us/products/pharma",
+      "id": "acadc080f7050b7f5c52d1d3b057ea08ae40b193"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/us/resource-center",
+      "source": "CRAWL",
+      "targetPath": "/us/resource-center",
+      "id": "0b8124244d475cba97c42a26f5c4679aeea6d188"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/vn",
+      "source": "CRAWL",
+      "targetPath": "/vn",
+      "id": "e02c9bd7683a6c7e1661e23554d17186f9ebb876"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/za",
+      "source": "CRAWL",
+      "targetPath": "/za",
+      "id": "863aa8bed4b73474bcfebe204473f147d779b320"
+    }
+  ],
+  "crawlOptions": {
+    "timeout": 64800000,
+    "inclusionPatterns": [],
+    "exclusionPatterns": [],
+    "limit": 100,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "crawl",
+    "logger": {},
+    "strategiesAttempted": [
+      "SITEMAPS",
+      "CRAWL"
+    ]
+  },
+  "extractionErrors": []
+}
