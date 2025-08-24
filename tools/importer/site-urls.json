@@ -1,0 +1,30 @@
+{
+  "originUrl": "https://www.fresenius-kabi.com",
+  "aborted": false,
+  "lastCrawled": "https://www.fresenius-kabi.com/de",
+  "urls": [
+    {
+      "url": "https://www.fresenius-kabi.com/de",
+      "source": "CRAWL",
+      "targetPath": "/de",
+      "id": "7fa8da69f71245979befd916028f8d85c5fb10d3"
+    }
+  ],
+  "crawlOptions": {
+    "timeout": 64800000,
+    "inclusionPatterns": [
+      "/de",
+      "/de/**"
+    ],
+    "exclusionPatterns": [],
+    "limit": 100,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "crawl",
+    "logger": {},
+    "strategiesAttempted": [
+      "CRAWL"
+    ]
+  },
+  "extractionErrors": []
+}
