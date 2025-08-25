@@ -38,72 +38,80 @@
   flex-direction: row;
   align-items: stretch;
   width: 100%;
-  gap: 0;
+  min-height: 350px; /* Ensures a minimum visible height for vertical centering */
+  background: transparent;
 }
 
 @media (width <= 899px) {
   .columns.columns12 > div {
     flex-direction: column;
+    min-height: unset;
   }
 }
 
-/* Left image column */
-.columns.columns12 .columns-img-col {
+/* Left column: make image fill left half vertically and horizontally */
+.columns.columns12 > div > .columns-img-col {
   flex: 1 1 0;
   display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+  min-width: 0;
+  min-height: 0;
+  background: transparent;
 }
 
-.columns.columns12 .columns-img-col img {
+.columns.columns12 > div > .columns-img-col picture,
+.columns.columns12 > div > .columns-img-col img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
 }
 
-/* Right content column */
+/* Right column: vertical + left alignment, generous padding, white bg */
 .columns.columns12 > div > div:not(.columns-img-col) {
   flex: 1 1 0;
   background: #fff;
-  padding: 2.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  min-height: 100%;
+  justify-content: center;        /* Vertically center */
+  align-items: flex-start;        /* Left align */
+  padding: 2.5rem 2rem;
+  min-height: 0;
   box-sizing: border-box;
+  width: 100%;
 }
 
-/* Group heading and arrow tightly with shared alignment */
+/* Heading: bold, black, large with ample bottom margin */
 .columns.columns12 > div > div:not(.columns-img-col) h3 {
   font-family: var(--heading-font-family);
   font-size: var(--heading-font-size-l);
-  font-weight: 600;
-  color: var(--text-color);
-  margin-bottom: 0.1rem; /* Tighter gap to arrow */
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 2.2rem;
   margin-top: 0;
-  line-height: 1.15;
+  line-height: 1.1;
   text-align: left;
-  padding-left: 0;
-  padding-right: 0;
+  letter-spacing: normal;
 }
 
+/* Button/arrow: larger margin-top for spacing, color and left alignment */
 .columns.columns12 > div > div:not(.columns-img-col) .button-container {
-  margin: 0;
+  margin-top: 0;
   padding: 0;
   width: auto;
   align-self: flex-start;
 }
 
-/* Arrow link: perfectly aligned, slightly larger, tightly grouped */
 .columns.columns12 > div > div:not(.columns-img-col) .button-container .button {
   background: none;
   border: none;
   padding: 0;
-  color: var(--link-color);
+  color: #1976d2;
   font-size: 1.8rem;
   font-weight: 500;
   display: inline-block;
-  margin-top: 0;
+  margin-top: 1.5rem;
   margin-left: 0;
   border-radius: 0;
   text-align: left;
@@ -111,12 +119,11 @@
   min-width: 0;
   line-height: 1.1;
   vertical-align: top;
+  text-decoration: none;
 }
 
-/* Remove default .button styles on hover */
 .columns.columns12 > div > div:not(.columns-img-col) .button-container .button:hover,
 .columns.columns12 > div > div:not(.columns-img-col) .button-container .button:focus {
-  background: none;
-  color: var(--link-hover-color);
+  color: #1565c0;
   text-decoration: underline;
 }
