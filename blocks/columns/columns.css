@@ -31,3 +31,92 @@
     order: unset;
   }
 }
+
+
+.columns.columns12 > div {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  width: 100%;
+  gap: 0;
+}
+
+@media (width <= 899px) {
+  .columns.columns12 > div {
+    flex-direction: column;
+  }
+}
+
+/* Left image column */
+.columns.columns12 .columns-img-col {
+  flex: 1 1 0;
+  display: flex;
+}
+
+.columns.columns12 .columns-img-col img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Right content column */
+.columns.columns12 > div > div:not(.columns-img-col) {
+  flex: 1 1 0;
+  background: #fff;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100%;
+  box-sizing: border-box;
+}
+
+/* Group heading and arrow tightly with shared alignment */
+.columns.columns12 > div > div:not(.columns-img-col) h3 {
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-l);
+  font-weight: 600;
+  color: var(--text-color);
+  margin-bottom: 0.1rem; /* Tighter gap to arrow */
+  margin-top: 0;
+  line-height: 1.15;
+  text-align: left;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.columns.columns12 > div > div:not(.columns-img-col) .button-container {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  align-self: flex-start;
+}
+
+/* Arrow link: perfectly aligned, slightly larger, tightly grouped */
+.columns.columns12 > div > div:not(.columns-img-col) .button-container .button {
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--link-color);
+  font-size: 1.8rem;
+  font-weight: 500;
+  display: inline-block;
+  margin-top: 0;
+  margin-left: 0;
+  border-radius: 0;
+  text-align: left;
+  box-shadow: none;
+  min-width: 0;
+  line-height: 1.1;
+  vertical-align: top;
+}
+
+/* Remove default .button styles on hover */
+.columns.columns12 > div > div:not(.columns-img-col) .button-container .button:hover,
+.columns.columns12 > div > div:not(.columns-img-col) .button-container .button:focus {
+  background: none;
+  color: var(--link-hover-color);
+  text-decoration: underline;
+}
