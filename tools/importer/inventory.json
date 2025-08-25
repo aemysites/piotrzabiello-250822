@@ -3820,6 +3820,579 @@
           "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[5]"
         }
       ]
+    },
+    {
+      "name": "footer",
+      "cluster": 61,
+      "source": "footer",
+      "target": "footer",
+      "key": "footer61",
+      "instances": [
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/biopharma",
+          "urlHash": "00943795adbe2c1fc3c063f33376733f4a24eab4",
+          "uuid": "00943795-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/autofusion-set",
+          "urlHash": "01f2ad23aa4f20c52b3e4bf59f79f10472946b28",
+          "uuid": "01f2ad23-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/dienstleistungen/versorgungsmanagement-von-der-klinik-nach-hause/fuer-patienten-und-angehoerige",
+          "urlHash": "03e0886b0f4b21398b8301385219c6b497063689",
+          "uuid": "03e0886b-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/errors",
+          "urlHash": "04dba993a066440b733a2e53cbbf67fc4156b8df",
+          "uuid": "04dba993-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/kontakt",
+          "urlHash": "0baa01f0f682a2bb574d6346cad69ea436c99764",
+          "uuid": "0baa01f0-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/downloads",
+          "urlHash": "0f26fa1adea09f7d84531cfe8e7fdcd9f80c8689",
+          "uuid": "0f26fa1a-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/dienstleistungen/logistik-management/kontakt-zur-logistik",
+          "urlHash": "133c1a5e9a006794702a7e80986f70b37dd6f5b7",
+          "uuid": "133c1a5e-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/pressemitteilungen",
+          "urlHash": "1651e856b71b24e360590924a7042e80cb2610fe",
+          "uuid": "1651e856-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/applikationstechnik-und-systeme",
+          "urlHash": "1db81bff10ba4004ad5d697da9f1dbdd465bbe3d",
+          "uuid": "1db81bff-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/dienstleistungen/versorgungsmanagement-von-der-klinik-nach-hause/fuer-pflegeheime-und-pflegedienste",
+          "urlHash": "21af6c8bedcd35fd6d10ac9ae0ba6fe8e15a19e2",
+          "uuid": "21af6c8b-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/medi1one",
+          "urlHash": "2625ae217b6e7fccd5f74e0c36b3e993287e24d2",
+          "uuid": "2625ae21-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/transfusionsmedizin-und-zelltherapie/plasmapherese/aurora",
+          "urlHash": "2807f23eb498f3ae885dcab4ef08e18d4a7f9717",
+          "uuid": "2807f23e-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/transfusionsmedizin-und-zelltherapie/apherese/amicore",
+          "urlHash": "28d2d81edfc68c69135c500e4ace9421d74ef4dc",
+          "uuid": "28d2d81e-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/dienstleistungen/wissensakademie",
+          "urlHash": "2d262b1144513d0eb1aa54e1ab3884a317c3c7cd",
+          "uuid": "2d262b11-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/pressemitteilungen/aus-der-pflege-fuer-die-pflege--queen-silvia-nursing-award-2023-",
+          "urlHash": "2d2e2afcb4158223950e2cccc439f483928dd3ed",
+          "uuid": "2d2e2afc-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/dienstleistungen/logistik-management/auftragsabwicklung/auftragsbestaetigung",
+          "urlHash": "2e74b8c383f8eabb1dea053c90d5fd3e421807b8",
+          "uuid": "2e74b8c3-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/dienstleistungen/logistik-management",
+          "urlHash": "308c73601919eefa2cc3ea50aeea8a3349010719",
+          "uuid": "308c7360-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/dienstleistungen",
+          "urlHash": "3099d69be9779332adbbc4f48702618ed53c1fcd",
+          "uuid": "3099d69b-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/downloads/produktbilder-medizinprodukte/produktbilder-applikationstechnik-und-systeme-enterale-ernaehrung",
+          "urlHash": "31cb4e0d7f294fa89c61907282fe0186fedf4c27",
+          "uuid": "31cb4e0d-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/impressum",
+          "urlHash": "3945960f1158e915144ccf6918d4bf80e2408a76",
+          "uuid": "3945960f-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/spuelloesungen-und-applikationen-urologie/ablaufschlaeuche-und-adapter",
+          "urlHash": "3a931c0ea6934d2606d0370ead0f76876d1f66fb",
+          "uuid": "3a931c0e-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/unternehmen/einblicke",
+          "urlHash": "3b9e00586f145e9a3a126a4d3287eb483547df35",
+          "uuid": "3b9e0058-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/dienstleistungen/wissenschaftlicher-service",
+          "urlHash": "3bddb66421bce5382c9374ddb207884f65f7958c",
+          "uuid": "3bddb664-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/errors/404",
+          "urlHash": "4a5fce42f14df5e8251bbac8757956b6ab94cbae",
+          "uuid": "4a5fce42-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/disclaimer",
+          "urlHash": "52a646780af61794b4a473cbca548ab7c217eb04",
+          "uuid": "52a64678-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/pressemitteilungen/50-jahre-fresubin",
+          "urlHash": "560584bbf4024a1d19c9d71c1d3cd485ecf64f4a",
+          "uuid": "560584bb-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/auftragserfassung-und-logistik",
+          "urlHash": "600168f1d393c9d0c4a34bb9274a8b2976a6a4b8",
+          "uuid": "600168f1-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/unternehmen",
+          "urlHash": "601c184b0480748fc7681e3a85cd9c6198e96af7",
+          "uuid": "601c184b-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/nahrungsergaenzungsmittel/sideral",
+          "urlHash": "618d153a57718268388cdea8c70ede61bdf18114",
+          "uuid": "618d153a-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/pressemitteilungen/das-neue-autofusion-set",
+          "urlHash": "640954aad319eb3c59351b499db2d737321c2ca7",
+          "uuid": "640954aa-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/dienstleistungen/logistik-management/eclass",
+          "urlHash": "64309c34f2efc4f4188d67efedeca14a7c1179b8",
+          "uuid": "64309c34-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/unternehmen/reach",
+          "urlHash": "6523cdbbc6c24f7f2d12d0076826b57b7d420d0c",
+          "uuid": "6523cdbb-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/spuelloesungen-und-applikationen-urologie",
+          "urlHash": "65e8ed00c9f882139923a585682a3ddab6a369d3",
+          "uuid": "65e8ed00-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/spuelloesungen-und-applikationen-urologie/auffang-und-aufhaengesysteme-fuer-spuelloesungen",
+          "urlHash": "66275ccf0f5c5f0d142d2129be7fc38feaf78434",
+          "uuid": "66275ccf-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/rechtliche-hinweise",
+          "urlHash": "664fde484c754011dd673f31aba4b1181f81688f",
+          "uuid": "664fde48-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/applikationstechnik-und-systeme/applikationstechnik-und-systeme-fuer-die-enterale-ernaehrung/applikationssysteme-fuer-die-enterale-ernaehrung/enterale-ernaehrungssonden/austauschsysteme",
+          "urlHash": "66c98eb01f7176f20efb8d5aa64e1047a1fafc82",
+          "uuid": "66c98eb0-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/transfusionsmedizin-und-zelltherapie/apherese",
+          "urlHash": "69ebf05fdaa8f9dd5316c2f9db63fe32a8102db2",
+          "uuid": "69ebf05f-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/downloads",
+          "urlHash": "6b006d6cc03052c069d0d7823add6580f015e08a",
+          "uuid": "6b006d6c-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/dienstleistungen/logistik-management/logistikzentrum-in-friedberg",
+          "urlHash": "730360acd31a9af134163194981e30d76f7497c7",
+          "uuid": "730360ac-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/spuelloesungen-und-applikationen-urologie/laxantien/freka-clyss",
+          "urlHash": "73b8f9fe3a8d509bcba95b594eac65e6fed51b33",
+          "uuid": "73b8f9fe-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/dienstleistungen/wissensakademie-online-lernangebot",
+          "urlHash": "73e04750aadba4a9f09f8c663280ff652e135ed3",
+          "uuid": "73e04750-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung",
+          "urlHash": "745eab604dbae34dd806e774dc4a478f60e57d94",
+          "uuid": "745eab60-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/dienstleistungen/fresenius-kabi-homecare-ausserklinische-versorgung",
+          "urlHash": "7a0fcb409335eb99420a9da60fb994aa5632d952",
+          "uuid": "7a0fcb40-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/downloads",
+          "urlHash": "7de809a72d13d9cae78a704552ba28dc8ef2f40e",
+          "uuid": "7de809a7-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de",
+          "urlHash": "7fa8da69f71245979befd916028f8d85c5fb10d3",
+          "uuid": "7fa8da69-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/unternehmen/soziales-engagement",
+          "urlHash": "82ce1f06fdef190ee6ec04c0ed8d169d6c64287b",
+          "uuid": "82ce1f06-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/spuelloesungen-und-applikationen-urologie/laxantien",
+          "urlHash": "832881b3f4a0346b0a544b548c94174b852e2777",
+          "uuid": "832881b3-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/karriere",
+          "urlHash": "83be2a4a8cfc81687352b8ad78b1ec3a4bbc9d7d",
+          "uuid": "83be2a4a-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/dienstleistungen/datenschutzinformationen--homecareversorgung",
+          "urlHash": "87b92fd94eac4383e17c337142d9e3eef165f96d",
+          "uuid": "87b92fd9-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/datenschutz",
+          "urlHash": "889b2dbf81d657bad5de1049e076828b712d1cb4",
+          "uuid": "889b2dbf-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/transfusionsmedizin-und-zelltherapie/apherese/amicus",
+          "urlHash": "8bbe7101b5f4500b7c289921fd08f6d8c3a42570",
+          "uuid": "8bbe7101-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/transfusionsmedizin-und-zelltherapie",
+          "urlHash": "8f4d96731e81cef08a5d3b0d1a3707c0d442aa0f",
+          "uuid": "8f4d9673-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/applikationstechnik-und-systeme/monitoring/anaesthesiemonitoring-conox-qm-7000m",
+          "urlHash": "943c1c57528413430ff93c27241b02ca297f5bb9",
+          "uuid": "943c1c57-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/transfusionsmedizin-und-zelltherapie/apherese/com-tec",
+          "urlHash": "95f1c3688d9e964dc7582fc97ad41daf046bb2d9",
+          "uuid": "95f1c368-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/mdr",
+          "urlHash": "96a5fa53f7cb1049b624ffb44603664226227b08",
+          "uuid": "96a5fa53-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/dienstleistungen/logistik-management/entsorgung",
+          "urlHash": "9b8a334815400ad36e429f5e014e93e01dbca8b0",
+          "uuid": "9b8a3348-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/information-zur-versorgungslage",
+          "urlHash": "9fdfa6b37fe7903a4bf5b73bb1738d9665ff94f5",
+          "uuid": "9fdfa6b3-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/kontakt/kontaktformular",
+          "urlHash": "a23f65c6471da153e9e1c836be039f6e05762e5e",
+          "uuid": "a23f65c6-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/kontakt/kontaktformular_datenschutz",
+          "urlHash": "a32fedc2e89a0854e739a07d90205d61b1d72697",
+          "uuid": "a32fedc2-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/frebini-energy",
+          "urlHash": "a7af19d202f9edba9908eaca5554d811d21cd0a3",
+          "uuid": "a7af19d2-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/infusionen",
+          "urlHash": "aaf549f16210727b00a00710260e1ca5d3ff1c25",
+          "uuid": "aaf549f1-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/dienstleistungen/logistik-management/auftragsabwicklung",
+          "urlHash": "ad9c53d5a89746ec05fefac7df831bb65e1645e2",
+          "uuid": "ad9c53d5-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/dienstleistungen/technischer-service",
+          "urlHash": "adc8ce5df82ca8f83b686403f3d0df3ba30f5060",
+          "uuid": "adc8ce5d-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/applikationstechnik-und-systeme/monitoring",
+          "urlHash": "af1dedc21f8fb4907c2b117b59246dcd3dcbdd1a",
+          "uuid": "af1dedc2-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/kontakt/kontaktformular_datenschutz/vielen-dank-fuer-ihre-nachricht---kontaktformular-datenschutz",
+          "urlHash": "b28fe5eab2b002dc3af3e5898830aadd57dc3119",
+          "uuid": "b28fe5ea-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/kontakt/kundenberatung",
+          "urlHash": "b3593ac51c498272f862e51fff1a8db47840c0cc",
+          "uuid": "b3593ac5-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/spuelloesungen-und-applikationen-urologie/ablaufschlaeuche-und-adapter/zuspitz-adapter-care-lock-einzeln-steril",
+          "urlHash": "b5b14a4568cb7b69aa7b076502dc5ba86a42afc3",
+          "uuid": "b5b14a45-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/kontakt/technischer-service",
+          "urlHash": "b5f6e3d269a33664d4b53b84ce1326bbd3467ea8",
+          "uuid": "b5f6e3d2-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/applikationstechnik-und-systeme/applikationstechnik-und-systeme-fuer-die-enterale-ernaehrung/applikationssysteme-fuer-die-enterale-ernaehrung/enterale-ernaehrungssonden/austauschsysteme/freka-button",
+          "urlHash": "bd9e621f7a0091e763665d5c3283b09efa9948af",
+          "uuid": "bd9e621f-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/downloads/produktbilder-klinische-ernaehrung",
+          "urlHash": "bfa46fd446268e71b4e611fbe3a1f77fd3018541",
+          "uuid": "bfa46fd4-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/kontakt/medizinische-notfaelle",
+          "urlHash": "c65c3c606cf938f64e0ecdda2e26974d112c923c",
+          "uuid": "c65c3c60-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/kontakt/kontaktformular/danke-fuer-ihre-nachricht",
+          "urlHash": "c89d8eca81a246960ff91888b7494c101224655b",
+          "uuid": "c89d8eca-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/downloads/produktbilder-medizinprodukte",
+          "urlHash": "c8bd8c9ec14f3fedbcd2c842e0190e19075eb4bc",
+          "uuid": "c8bd8c9e-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte",
+          "urlHash": "cb66428222e48f5bd58e695616f13bb0c6590692",
+          "uuid": "cb664282-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/downloads/downloadbereich-logo-fresenius-kabi-deutschland",
+          "urlHash": "cc94da2a27697fadb7e9a6c411bf18ba87e23e6c",
+          "uuid": "cc94da2a-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio",
+          "urlHash": "d0d83e172d310e63a6c9418b62349124039aa55e",
+          "uuid": "d0d83e17-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/dienstleistungen/versorgungsmanagement-von-der-klinik-nach-hause/fuer-kliniken",
+          "urlHash": "d277b91bea24df4d35b63e17a0fe5257e6140682",
+          "uuid": "d277b91b-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/unternehmen/einblicke/leben-mit-parenteraler-ernaehrung",
+          "urlHash": "d51d95a05d992ce29683c84169f6e096b591a84c",
+          "uuid": "d51d95a0-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/unternehmen/soziales-engagement/aktivhelfentage/aktivhelfen_tag_in_hamburg_2023",
+          "urlHash": "d8a3ae9052c8dbf015e867a152aaf0b5cc80f336",
+          "uuid": "d8a3ae90-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/spuelloesungen-und-applikationen-urologie/auffang-und-aufhaengesysteme-fuer-spuelloesungen/endoschild",
+          "urlHash": "dfa0a84fab16b68bbc203be46434d9ad4397c95d",
+          "uuid": "dfa0a84f-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/transfusionsmedizin-und-zelltherapie/plasmapherese",
+          "urlHash": "e0ace268feb522e2358ed099b1879708c343c6b7",
+          "uuid": "e0ace268-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/intravenoese-arzneimittel/informationen-fuer-patienten",
+          "urlHash": "e1a3f301980d3e4b10c02e98b464455a9b45447a",
+          "uuid": "e1a3f301-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/biopharma/biosimilars",
+          "urlHash": "e247c2fab9653d702216ea3bf24023530b6618ac",
+          "uuid": "e247c2fa-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente",
+          "urlHash": "e3c8c30904a0d3e94079b0f87a8c00ea63f9c796",
+          "uuid": "e3c8c309-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/nahrungsergaenzungsmittel",
+          "urlHash": "e52080ecd4d580ecda9c57aeb20d20c093b43ea8",
+          "uuid": "e52080ec-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung",
+          "urlHash": "e5a4f9f4ccdc6f2749d5872a9554423fbf60825b",
+          "uuid": "e5a4f9f4-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/news",
+          "urlHash": "e96b35c63f6108caabe850730209669013e130c9",
+          "uuid": "e96b35c6-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/ergebnisse",
+          "urlHash": "ea9893e2a293f46ef1d19410508ef0bfc700ebbb",
+          "uuid": "ea9893e2-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/kontakt/unternehmen-kontakt",
+          "urlHash": "ed53724ad96bcafed3e964f275f0458bb897b8ce",
+          "uuid": "ed53724a-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/dienstleistungen/versorgungsmanagement-von-der-klinik-nach-hause",
+          "urlHash": "ed9dc3b45865f83f5660d477109e722bd3593b5c",
+          "uuid": "ed9dc3b4-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/diben-1-5-kcal-hp",
+          "urlHash": "f27c098391646c408249f1b52abda5752e34eef0",
+          "uuid": "f27c0983-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/infusionen/behoerdlich-beauflagtes-schulungsmaterial-fuer-hes---produkte",
+          "urlHash": "f797a46bd147e6bc52ea398bb79d9ab63965acf8",
+          "uuid": "f797a46b-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/spuelloesungen-und-applikationen-urologie/spuelloesungen",
+          "urlHash": "f7e5c54d828b98abfb4870b93a91e633f12ea0dd",
+          "uuid": "f7e5c54d-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        },
+        {
+          "url": "https://www.fresenius-kabi.com/de/portfolio/intravenoese-arzneimittel",
+          "urlHash": "fc5384c7e65e697df0edd85afd47e1a7b2da1884",
+          "uuid": "fc5384c7-00-3dad6f17c5ac52449dfbc495c4fa129caa1ae780",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/footer[1]"
+        }
+      ]
     }
   ],
   "outliers": [
