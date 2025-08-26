@@ -130,7 +130,6 @@
   text-decoration: underline;
 }
 
-
 .columns {
   background: #0A2A63;
   border-bottom: 1px solid #fff;
@@ -258,6 +257,58 @@
 
 /* Remove extra spacing in button list */
 .columns > div > div:last-child ul:last-of-type li {
+=======
+
+.columns.columns12 {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Use Flexbox for exact 50/50 columns */
+.columns.columns12 > div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 320px;
+  align-items: stretch;
+  gap: 0;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Force image and text columns to exactly 50% width each */
+.columns.columns12 > div > .columns-img-col,
+.columns.columns12 > div > div:not(.columns-img-col) {
+  flex: 0 0 50%;
+  max-width: 50%;
+  min-width: 0;
+  min-height: 0;
+  height: auto;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Make image fill its section, no extra space */
+.columns.columns12 > div > .columns-img-col {
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+  background: none;
+}
+
+.columns.columns12 > div > .columns-img-col picture,
+.columns.columns12 > div > .columns-img-col img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 320px;
+  object-fit: cover;
+  object-position: left center;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -340,4 +391,5 @@
   text-decoration: none;
   margin: 0;
   padding: 0;
+
 }
