@@ -1,585 +1,623 @@
 {
   "originUrl": "https://www.fresenius-kabi.com",
   "aborted": false,
+  "lastCrawled": "https://www.fresenius-kabi.com/",
   "urls": [
     {
-      "url": "https://www.fresenius-kabi.com/de",
-      "source": "MANUAL",
-      "targetPath": "/de",
-      "id": "7fa8da69f71245979befd916028f8d85c5fb10d3"
+      "url": "https://www.fresenius-kabi.com/",
+      "source": "SITEMAPS",
+      "targetPath": "/",
+      "id": "a6ef1c412a6a474f4e09a2b645743828b6498d50"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/auftragserfassung-und-logistik",
-      "source": "MANUAL",
-      "targetPath": "/de/auftragserfassung-und-logistik",
-      "id": "600168f1d393c9d0c4a34bb9274a8b2976a6a4b8"
+      "url": "https://www.fresenius-kabi.com/company",
+      "source": "SITEMAPS",
+      "targetPath": "/company",
+      "id": "09ddc875b30c56f99b07309aef4892d56b545e7d"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/autofusion-set",
-      "source": "MANUAL",
-      "targetPath": "/de/autofusion-set",
-      "id": "01f2ad23aa4f20c52b3e4bf59f79f10472946b28"
+      "url": "https://www.fresenius-kabi.com/company/about-us",
+      "source": "SITEMAPS",
+      "targetPath": "/company/about-us",
+      "id": "ef7e05a2a8d879746deab88519a0d733140c2ca8"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/datenschutz",
-      "source": "MANUAL",
-      "targetPath": "/de/datenschutz",
-      "id": "889b2dbf81d657bad5de1049e076828b712d1cb4"
+      "url": "https://www.fresenius-kabi.com/company/executive-leadership-team",
+      "source": "SITEMAPS",
+      "targetPath": "/company/executive-leadership-team",
+      "id": "52d816974326d28a34801b7d2378c15447184dbf"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/dienstleistungen",
-      "source": "MANUAL",
-      "targetPath": "/de/dienstleistungen",
-      "id": "3099d69be9779332adbbc4f48702618ed53c1fcd"
+      "url": "https://www.fresenius-kabi.com/company/heritage",
+      "source": "SITEMAPS",
+      "targetPath": "/company/heritage",
+      "id": "31fe67b45e29edd0a745dc3572fdbe7c0d926815"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/dienstleistungen/datenschutzinformationen--homecareversorgung",
-      "source": "MANUAL",
-      "targetPath": "/de/dienstleistungen/datenschutzinformationen-homecareversorgung",
-      "id": "87b92fd94eac4383e17c337142d9e3eef165f96d"
+      "url": "https://www.fresenius-kabi.com/company/quality-commitment",
+      "source": "SITEMAPS",
+      "targetPath": "/company/quality-commitment",
+      "id": "4831a2b4c8e5d872d1d7f5db3e27820e65b8da1d"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/dienstleistungen/fresenius-kabi-homecare-ausserklinische-versorgung",
-      "source": "MANUAL",
-      "targetPath": "/de/dienstleistungen/fresenius-kabi-homecare-ausserklinische-versorgung",
-      "id": "7a0fcb409335eb99420a9da60fb994aa5632d952"
+      "url": "https://www.fresenius-kabi.com/company/vision",
+      "source": "SITEMAPS",
+      "targetPath": "/company/vision",
+      "id": "80b37fef919a40b63495ca8696795da4ad2ff39a"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/dienstleistungen/logistik-management",
-      "source": "MANUAL",
-      "targetPath": "/de/dienstleistungen/logistik-management",
-      "id": "308c73601919eefa2cc3ea50aeea8a3349010719"
+      "url": "https://www.fresenius-kabi.com/company/we-are-global",
+      "source": "SITEMAPS",
+      "targetPath": "/company/we-are-global",
+      "id": "0ae98771c6c9ff9ec46e56aef0306f4c95f22a35"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/dienstleistungen/logistik-management/auftragsabwicklung",
-      "source": "MANUAL",
-      "targetPath": "/de/dienstleistungen/logistik-management/auftragsabwicklung",
-      "id": "ad9c53d5a89746ec05fefac7df831bb65e1645e2"
+      "url": "https://www.fresenius-kabi.com/news",
+      "source": "SITEMAPS",
+      "targetPath": "/news",
+      "id": "52ca4298551c201f8d0e6f15e2f34ba741897891"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/dienstleistungen/logistik-management/auftragsabwicklung/auftragsbestaetigung",
-      "source": "MANUAL",
-      "targetPath": "/de/dienstleistungen/logistik-management/auftragsabwicklung/auftragsbestaetigung",
-      "id": "2e74b8c383f8eabb1dea053c90d5fd3e421807b8"
+      "url": "https://www.fresenius-kabi.com/news-room",
+      "source": "SITEMAPS",
+      "targetPath": "/news-room",
+      "id": "d14fe0b45264953d99d0a3cca594cc1344f39c63"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/dienstleistungen/logistik-management/eclass",
-      "source": "MANUAL",
-      "targetPath": "/de/dienstleistungen/logistik-management/eclass",
-      "id": "64309c34f2efc4f4188d67efedeca14a7c1179b8"
+      "url": "https://www.fresenius-kabi.com/news/20230802-press-release-fse-q2-23",
+      "source": "SITEMAPS",
+      "targetPath": "/news/20230802-press-release-fse-q2-23",
+      "id": "dbb08d7a8d7b22ff681ced55b8a6b3cc86acf514"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/dienstleistungen/logistik-management/entsorgung",
-      "source": "MANUAL",
-      "targetPath": "/de/dienstleistungen/logistik-management/entsorgung",
-      "id": "9b8a334815400ad36e429f5e014e93e01dbca8b0"
+      "url": "https://www.fresenius-kabi.com/news/annual-report-2021-and-new-guidelines-for-fresenius",
+      "source": "SITEMAPS",
+      "targetPath": "/news/annual-report-2021-and-new-guidelines-for-fresenius",
+      "id": "d782f57013e1969f6243aebb3c0e0fb5c69bd841"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/dienstleistungen/logistik-management/kontakt-zur-logistik",
-      "source": "MANUAL",
-      "targetPath": "/de/dienstleistungen/logistik-management/kontakt-zur-logistik",
-      "id": "133c1a5e9a006794702a7e80986f70b37dd6f5b7"
+      "url": "https://www.fresenius-kabi.com/news/biosimilar-candidate-tocilizumab-accepted-for-review-by-fda",
+      "source": "SITEMAPS",
+      "targetPath": "/news/biosimilar-candidate-tocilizumab-accepted-for-review-by-fda",
+      "id": "e00321e28ce83ec93527c7fc63a46e1c9b43bc77"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/dienstleistungen/logistik-management/logistikzentrum-in-friedberg",
-      "source": "MANUAL",
-      "targetPath": "/de/dienstleistungen/logistik-management/logistikzentrum-in-friedberg",
-      "id": "730360acd31a9af134163194981e30d76f7497c7"
+      "url": "https://www.fresenius-kabi.com/news/business-report-first-quarter-2022-of-fresenius",
+      "source": "SITEMAPS",
+      "targetPath": "/news/business-report-first-quarter-2022-of-fresenius",
+      "id": "ff56a2e50d3a5bb4feb0aaf1274cff2669ff43c7"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/dienstleistungen/technischer-service",
-      "source": "MANUAL",
-      "targetPath": "/de/dienstleistungen/technischer-service",
-      "id": "adc8ce5df82ca8f83b686403f3d0df3ba30f5060"
+      "url": "https://www.fresenius-kabi.com/news/business-report-second-quarter-and-first-half-of-2022",
+      "source": "SITEMAPS",
+      "targetPath": "/news/business-report-second-quarter-and-first-half-of-2022",
+      "id": "375829a4ae5343a85d09fc74576b213cb1ed2749"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/dienstleistungen/versorgungsmanagement-von-der-klinik-nach-hause",
-      "source": "MANUAL",
-      "targetPath": "/de/dienstleistungen/versorgungsmanagement-von-der-klinik-nach-hause",
-      "id": "ed9dc3b45865f83f5660d477109e722bd3593b5c"
+      "url": "https://www.fresenius-kabi.com/news/business-report-third-quarter-of-2022-of-fresenius",
+      "source": "SITEMAPS",
+      "targetPath": "/news/business-report-third-quarter-of-2022-of-fresenius",
+      "id": "5bf7278562e2aaa5a07896cd09e833b7ccf24545"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/dienstleistungen/versorgungsmanagement-von-der-klinik-nach-hause/fuer-kliniken",
-      "source": "MANUAL",
-      "targetPath": "/de/dienstleistungen/versorgungsmanagement-von-der-klinik-nach-hause/fuer-kliniken",
-      "id": "d277b91bea24df4d35b63e17a0fe5257e6140682"
+      "url": "https://www.fresenius-kabi.com/news/european-commission-approval-tyenne-tocilizumab-biosimilar",
+      "source": "SITEMAPS",
+      "targetPath": "/news/european-commission-approval-tyenne-tocilizumab-biosimilar",
+      "id": "62bed378217037dbd27a354ef46256fef0a3912a"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/dienstleistungen/versorgungsmanagement-von-der-klinik-nach-hause/fuer-patienten-und-angehoerige",
-      "source": "MANUAL",
-      "targetPath": "/de/dienstleistungen/versorgungsmanagement-von-der-klinik-nach-hause/fuer-patienten-und-angehoerige",
-      "id": "03e0886b0f4b21398b8301385219c6b497063689"
+      "url": "https://www.fresenius-kabi.com/news/europn-study-new-clinical-data-on-medical-nutrition-therapy",
+      "source": "SITEMAPS",
+      "targetPath": "/news/europn-study-new-clinical-data-on-medical-nutrition-therapy",
+      "id": "3bff1c7d35ffcdcea737581b801592f334b4f1f0"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/dienstleistungen/versorgungsmanagement-von-der-klinik-nach-hause/fuer-pflegeheime-und-pflegedienste",
-      "source": "MANUAL",
-      "targetPath": "/de/dienstleistungen/versorgungsmanagement-von-der-klinik-nach-hause/fuer-pflegeheime-und-pflegedienste",
-      "id": "21af6c8bedcd35fd6d10ac9ae0ba6fe8e15a19e2"
+      "url": "https://www.fresenius-kabi.com/news/fda-submission-acceptance-ustekinumab-biosimilar",
+      "source": "SITEMAPS",
+      "targetPath": "/news/fda-submission-acceptance-ustekinumab-biosimilar",
+      "id": "0f7f12723c78a650c6bb5bb0fbdd8b34f77a56b7"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/dienstleistungen/wissensakademie",
-      "source": "MANUAL",
-      "targetPath": "/de/dienstleistungen/wissensakademie",
-      "id": "2d262b1144513d0eb1aa54e1ab3884a317c3c7cd"
+      "url": "https://www.fresenius-kabi.com/news/fresenius-closes-2023-with-strong-fourth-quarter",
+      "source": "SITEMAPS",
+      "targetPath": "/news/fresenius-closes-2023-with-strong-fourth-quarter",
+      "id": "fc1eb8e23219cfe58176722dd6e04e444f77111f"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/dienstleistungen/wissensakademie-online-lernangebot",
-      "source": "MANUAL",
-      "targetPath": "/de/dienstleistungen/wissensakademie-online-lernangebot",
-      "id": "73e04750aadba4a9f09f8c663280ff652e135ed3"
+      "url": "https://www.fresenius-kabi.com/news/fresenius-commits-to-support-earthquake-victims-in-turkiye-and-syria",
+      "source": "SITEMAPS",
+      "targetPath": "/news/fresenius-commits-to-support-earthquake-victims-in-turkiye-and-syria",
+      "id": "0da13d0280cae08c6c06dd90cb4dd79d8520981a"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/dienstleistungen/wissenschaftlicher-service",
-      "source": "MANUAL",
-      "targetPath": "/de/dienstleistungen/wissenschaftlicher-service",
-      "id": "3bddb66421bce5382c9374ddb207884f65f7958c"
+      "url": "https://www.fresenius-kabi.com/news/fresenius-kabi-and-esicm-continue-collaboration",
+      "source": "SITEMAPS",
+      "targetPath": "/news/fresenius-kabi-and-esicm-continue-collaboration",
+      "id": "67712a725833aece6c8835fec5e378731b3686ee"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/disclaimer",
-      "source": "MANUAL",
-      "targetPath": "/de/disclaimer",
-      "id": "52a646780af61794b4a473cbca548ab7c217eb04"
+      "url": "https://www.fresenius-kabi.com/news/fresenius-kabi-and-lupagen-enter-into-strategic-agreement",
+      "source": "SITEMAPS",
+      "targetPath": "/news/fresenius-kabi-and-lupagen-enter-into-strategic-agreement",
+      "id": "c867180da9b6a3b36da948b09cf1d4f851c64373"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/downloads",
-      "source": "MANUAL",
-      "targetPath": "/de/downloads",
-      "id": "6b006d6cc03052c069d0d7823add6580f015e08a"
+      "url": "https://www.fresenius-kabi.com/news/fresenius-kabi-at-the-euroanaesthesia-2023",
+      "source": "SITEMAPS",
+      "targetPath": "/news/fresenius-kabi-at-the-euroanaesthesia-2023",
+      "id": "8ddd643464c9186f88701077fa236e2b1dc31637"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/downloads/downloadbereich-logo-fresenius-kabi-deutschland",
-      "source": "MANUAL",
-      "targetPath": "/de/downloads/downloadbereich-logo-fresenius-kabi-deutschland",
-      "id": "cc94da2a27697fadb7e9a6c411bf18ba87e23e6c"
+      "url": "https://www.fresenius-kabi.com/news/fresenius-kabi-awarded-technology-breakthrough-agreement-with-premier-inc",
+      "source": "SITEMAPS",
+      "targetPath": "/news/fresenius-kabi-awarded-technology-breakthrough-agreement-with-premier-inc",
+      "id": "d02c4194c2b8b795d4ccf6eb24fc16352bcad752"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/downloads/produktbilder-klinische-ernaehrung",
-      "source": "MANUAL",
-      "targetPath": "/de/downloads/produktbilder-klinische-ernaehrung",
-      "id": "bfa46fd446268e71b4e611fbe3a1f77fd3018541"
+      "url": "https://www.fresenius-kabi.com/news/fresenius-kabi-buys-a-majority-stake-in-mabxience-and-acquires",
+      "source": "SITEMAPS",
+      "targetPath": "/news/fresenius-kabi-buys-a-majority-stake-in-mabxience-and-acquires",
+      "id": "0f6953e3564aad59a95b00f45104d2973956b8f9"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/downloads/produktbilder-medizinprodukte",
-      "source": "MANUAL",
-      "targetPath": "/de/downloads/produktbilder-medizinprodukte",
-      "id": "c8bd8c9ec14f3fedbcd2c842e0190e19075eb4bc"
+      "url": "https://www.fresenius-kabi.com/news/fresenius-kabi-completes-acquisition-of-ivenix-inc",
+      "source": "SITEMAPS",
+      "targetPath": "/news/fresenius-kabi-completes-acquisition-of-ivenix-inc",
+      "id": "ea760e4a60a4ae6400cd80f4717db8caa0d2e35b"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/downloads/produktbilder-medizinprodukte/produktbilder-applikationstechnik-und-systeme-enterale-ernaehrung",
-      "source": "MANUAL",
-      "targetPath": "/de/downloads/produktbilder-medizinprodukte/produktbilder-applikationstechnik-und-systeme-enterale-ernaehrung",
-      "id": "31cb4e0d7f294fa89c61907282fe0186fedf4c27"
+      "url": "https://www.fresenius-kabi.com/news/fresenius-kabi-completes-majority-stake-acquisition-of-mabxience",
+      "source": "SITEMAPS",
+      "targetPath": "/news/fresenius-kabi-completes-majority-stake-acquisition-of-mabxience",
+      "id": "4da1454873e7449edab044ec9eb01d0127a85d3c"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/ergebnisse",
-      "source": "MANUAL",
-      "targetPath": "/de/ergebnisse",
-      "id": "ea9893e2a293f46ef1d19410508ef0bfc700ebbb"
+      "url": "https://www.fresenius-kabi.com/news/fresenius-kabi-employees-team-up-for-breast-cancer-awareness",
+      "source": "SITEMAPS",
+      "targetPath": "/news/fresenius-kabi-employees-team-up-for-breast-cancer-awareness",
+      "id": "d010c932009c3b93f842912ec32bdf2c7f8da23b"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/errors",
-      "source": "MANUAL",
-      "targetPath": "/de/errors",
-      "id": "04dba993a066440b733a2e53cbbf67fc4156b8df"
+      "url": "https://www.fresenius-kabi.com/news/fresenius-kabi-establishes-partnership-with-fiocruz-bio-manguinhos-bionovis",
+      "source": "SITEMAPS",
+      "targetPath": "/news/fresenius-kabi-establishes-partnership-with-fiocruz-bio-manguinhos-bionovis",
+      "id": "b4df3741f1eaf1b0ad135a74f03782c2043f03e6"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/errors/404",
-      "source": "MANUAL",
-      "targetPath": "/de/errors/404",
-      "id": "4a5fce42f14df5e8251bbac8757956b6ab94cbae"
+      "url": "https://www.fresenius-kabi.com/news/fresenius-kabi-fiscal-year-2022-results-press-release",
+      "source": "SITEMAPS",
+      "targetPath": "/news/fresenius-kabi-fiscal-year-2022-results-press-release",
+      "id": "75d61f95bf9f496b634e66b79709d5894f2dfa93"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/impressum",
-      "source": "MANUAL",
-      "targetPath": "/de/impressum",
-      "id": "3945960f1158e915144ccf6918d4bf80e2408a76"
+      "url": "https://www.fresenius-kabi.com/news/fresenius-kabi-formycon-license-date-ustekinumab-biosimilar",
+      "source": "SITEMAPS",
+      "targetPath": "/news/fresenius-kabi-formycon-license-date-ustekinumab-biosimilar",
+      "id": "93459e04a8d9fa2805df4c31b1771b0d6490bc96"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/information-zur-versorgungslage",
-      "source": "MANUAL",
-      "targetPath": "/de/information-zur-versorgungslage",
-      "id": "9fdfa6b37fe7903a4bf5b73bb1738d9665ff94f5"
+      "url": "https://www.fresenius-kabi.com/news/fresenius-kabi-inaugurates-extension-of-production-facilities-in-dominican-republic",
+      "source": "SITEMAPS",
+      "targetPath": "/news/fresenius-kabi-inaugurates-extension-of-production-facilities-in-dominican-republic",
+      "id": "6fcc787effa8a65e0dc3b4b5b1318e631ec45be1"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/karriere",
-      "source": "MANUAL",
-      "targetPath": "/de/karriere",
-      "id": "83be2a4a8cfc81687352b8ad78b1ec3a4bbc9d7d"
+      "url": "https://www.fresenius-kabi.com/news/fresenius-kabi-launches-biosimilar-stimufend-in-the-us",
+      "source": "SITEMAPS",
+      "targetPath": "/news/fresenius-kabi-launches-biosimilar-stimufend-in-the-us",
+      "id": "8953cbe34c72db3e5581f9fe124fd1adbb65b3b3"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/kontakt",
-      "source": "MANUAL",
-      "targetPath": "/de/kontakt",
-      "id": "0baa01f0f682a2bb574d6346cad69ea436c99764"
+      "url": "https://www.fresenius-kabi.com/news/fresenius-kabi-launches-its-citrate-free-biosimilar-idacio",
+      "source": "SITEMAPS",
+      "targetPath": "/news/fresenius-kabi-launches-its-citrate-free-biosimilar-idacio",
+      "id": "62da8a859097ade948e175149e84f71654ad664d"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/kontakt/kontaktformular",
-      "source": "MANUAL",
-      "targetPath": "/de/kontakt/kontaktformular",
-      "id": "a23f65c6471da153e9e1c836be039f6e05762e5e"
+      "url": "https://www.fresenius-kabi.com/news/fresenius-kabi-launches-single-needle-option-for-amicus-extracorporeal-photopheresis",
+      "source": "SITEMAPS",
+      "targetPath": "/news/fresenius-kabi-launches-single-needle-option-for-amicus-extracorporeal-photopheresis",
+      "id": "ee573ea8552eebbdb2283ade306e2f07271da069"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/kontakt/kontaktformular_datenschutz",
-      "source": "MANUAL",
-      "targetPath": "/de/kontakt/kontaktformular-datenschutz",
-      "id": "a32fedc2e89a0854e739a07d90205d61b1d72697"
+      "url": "https://www.fresenius-kabi.com/news/fresenius-kabi-launches-tyenne-tocilizumab-biosimilar-eu",
+      "source": "SITEMAPS",
+      "targetPath": "/news/fresenius-kabi-launches-tyenne-tocilizumab-biosimilar-eu",
+      "id": "2143f3b6112c57c16d684f90550df2efeb19d374"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/kontakt/kontaktformular_datenschutz/vielen-dank-fuer-ihre-nachricht---kontaktformular-datenschutz",
-      "source": "MANUAL",
-      "targetPath": "/de/kontakt/kontaktformular-datenschutz/vielen-dank-fuer-ihre-nachricht-kontaktformular-datenschutz",
-      "id": "b28fe5eab2b002dc3af3e5898830aadd57dc3119"
+      "url": "https://www.fresenius-kabi.com/news/fresenius-kabi-mayo-clinic-ivenix-agreement",
+      "source": "SITEMAPS",
+      "targetPath": "/news/fresenius-kabi-mayo-clinic-ivenix-agreement",
+      "id": "52295ae87478099bf7e184576407ce52e172cc54"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/kontakt/kontaktformular/danke-fuer-ihre-nachricht",
-      "source": "MANUAL",
-      "targetPath": "/de/kontakt/kontaktformular/danke-fuer-ihre-nachricht",
-      "id": "c89d8eca81a246960ff91888b7494c101224655b"
+      "url": "https://www.fresenius-kabi.com/news/fresenius-kabi-offers-100-000-grant-to-advance-nutritional",
+      "source": "SITEMAPS",
+      "targetPath": "/news/fresenius-kabi-offers-100-000-grant-to-advance-nutritional",
+      "id": "71b0efb38298f1e89c7fb3f2788c0d0b574ce100"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/kontakt/kundenberatung",
-      "source": "MANUAL",
-      "targetPath": "/de/kontakt/kundenberatung",
-      "id": "b3593ac51c498272f862e51fff1a8db47840c0cc"
+      "url": "https://www.fresenius-kabi.com/news/fresenius-kabi-prolongs-production-and-supply-contract-with-cerus",
+      "source": "SITEMAPS",
+      "targetPath": "/news/fresenius-kabi-prolongs-production-and-supply-contract-with-cerus",
+      "id": "77e137a0fd7936668c76eca94bad1f36dbf0d06d"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/kontakt/medizinische-notfaelle",
-      "source": "MANUAL",
-      "targetPath": "/de/kontakt/medizinische-notfaelle",
-      "id": "c65c3c606cf938f64e0ecdda2e26974d112c923c"
+      "url": "https://www.fresenius-kabi.com/news/fresenius-kabi-provides-humanitarian-aid-for-ukraine",
+      "source": "SITEMAPS",
+      "targetPath": "/news/fresenius-kabi-provides-humanitarian-aid-for-ukraine",
+      "id": "634e97b58fa33ec592cb12e5a7a8f4858ca3a18c"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/kontakt/technischer-service",
-      "source": "MANUAL",
-      "targetPath": "/de/kontakt/technischer-service",
-      "id": "b5f6e3d269a33664d4b53b84ce1326bbd3467ea8"
+      "url": "https://www.fresenius-kabi.com/news/fresenius-kabi-receives-ec-approval-for-pegfilgrastim-biosimilar-stimufend",
+      "source": "SITEMAPS",
+      "targetPath": "/news/fresenius-kabi-receives-ec-approval-for-pegfilgrastim-biosimilar-stimufend",
+      "id": "c9db36d4a55375bc2b8b107ea88f253d8858322f"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/kontakt/unternehmen-kontakt",
-      "source": "MANUAL",
-      "targetPath": "/de/kontakt/unternehmen-kontakt",
-      "id": "ed53724ad96bcafed3e964f275f0458bb897b8ce"
+      "url": "https://www.fresenius-kabi.com/news/fresenius-kabi-receives-fda-approval-for-biosimilar-idacio",
+      "source": "SITEMAPS",
+      "targetPath": "/news/fresenius-kabi-receives-fda-approval-for-biosimilar-idacio",
+      "id": "211cf3cac709de37021579efef68b2d2206cc103"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/medi1one",
-      "source": "MANUAL",
-      "targetPath": "/de/medi1one",
-      "id": "2625ae217b6e7fccd5f74e0c36b3e993287e24d2"
+      "url": "https://www.fresenius-kabi.com/news/fresenius-kabi-receives-us-fda-approval-for-biosimilar",
+      "source": "SITEMAPS",
+      "targetPath": "/news/fresenius-kabi-receives-us-fda-approval-for-biosimilar",
+      "id": "e66575fc86c241d784a4a06febb0a82c771113e5"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/news",
-      "source": "MANUAL",
-      "targetPath": "/de/news",
-      "id": "e96b35c63f6108caabe850730209669013e130c9"
+      "url": "https://www.fresenius-kabi.com/news/fresenius-kabi-recognized-as-a-top-employer-in-2023",
+      "source": "SITEMAPS",
+      "targetPath": "/news/fresenius-kabi-recognized-as-a-top-employer-in-2023",
+      "id": "b23081a7b8896e670a49bc6dcdf467d6b4e8f32b"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio",
-      "id": "d0d83e172d310e63a6c9418b62349124039aa55e"
+      "url": "https://www.fresenius-kabi.com/news/fresenius-kabi-s-denosumab-biosimilar-candidate-fks518",
+      "source": "SITEMAPS",
+      "targetPath": "/news/fresenius-kabi-s-denosumab-biosimilar-candidate-fks518",
+      "id": "24444b102b42fa2d760f64402faceb95592d003c"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/biopharma",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/biopharma",
-      "id": "00943795adbe2c1fc3c063f33376733f4a24eab4"
+      "url": "https://www.fresenius-kabi.com/news/fresenius-kabi-tocilizumab-biosimilar-candidate-msb11456",
+      "source": "SITEMAPS",
+      "targetPath": "/news/fresenius-kabi-tocilizumab-biosimilar-candidate-msb11456",
+      "id": "ba0d929f97f900eb03ce0bd89fe0b31365511faa"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/biopharma/biosimilars",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/biopharma/biosimilars",
-      "id": "e247c2fab9653d702216ea3bf24023530b6618ac"
+      "url": "https://www.fresenius-kabi.com/news/fresenius-kabi-tocilizumab-mma-accepted-by-ema",
+      "source": "SITEMAPS",
+      "targetPath": "/news/fresenius-kabi-tocilizumab-mma-accepted-by-ema",
+      "id": "a8ee0974511c6216f024470e0cc4b55333bf7ca6"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/infusionen",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/infusionen",
-      "id": "aaf549f16210727b00a00710260e1ca5d3ff1c25"
+      "url": "https://www.fresenius-kabi.com/news/fresenius-se-hosts-kabi-capital-markets-day",
+      "source": "SITEMAPS",
+      "targetPath": "/news/fresenius-se-hosts-kabi-capital-markets-day",
+      "id": "cede51a9f0f952380c57dd1a1f35d0dda7eae475"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/infusionen/behoerdlich-beauflagtes-schulungsmaterial-fuer-hes---produkte",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/infusionen/behoerdlich-beauflagtes-schulungsmaterial-fuer-hes-produkte",
-      "id": "f797a46bd147e6bc52ea398bb79d9ab63965acf8"
+      "url": "https://www.fresenius-kabi.com/news/further-donations-support-emergency-care-of-patients-ukraine",
+      "source": "SITEMAPS",
+      "targetPath": "/news/further-donations-support-emergency-care-of-patients-ukraine",
+      "id": "15f44161bc2a9c5e2956d73a0c79361494bb990e"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/intravenoese-arzneimittel",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/intravenoese-arzneimittel",
-      "id": "fc5384c7e65e697df0edd85afd47e1a7b2da1884"
+      "url": "https://www.fresenius-kabi.com/news/gastrointestinal-dysfunction-study-wins-esicm-clinical-nutrition-award",
+      "source": "SITEMAPS",
+      "targetPath": "/news/gastrointestinal-dysfunction-study-wins-esicm-clinical-nutrition-award",
+      "id": "8a2cabc9a977dab34f8aca5d3d32549caff4d139"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/intravenoese-arzneimittel/informationen-fuer-patienten",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/intravenoese-arzneimittel/informationen-fuer-patienten",
-      "id": "e1a3f301980d3e4b10c02e98b464455a9b45447a"
+      "url": "https://www.fresenius-kabi.com/news/global-license-agreement-fresenius-kabi-and-formycon-to-commercialize-ustekinumab-biosimilar",
+      "source": "SITEMAPS",
+      "targetPath": "/news/global-license-agreement-fresenius-kabi-and-formycon-to-commercialize-ustekinumab-biosimilar",
+      "id": "4ac51bc9455e457b0cc2ec9903ae66e5089f9225"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/klinische-ernaehrung",
-      "id": "745eab604dbae34dd806e774dc4a478f60e57d94"
+      "url": "https://www.fresenius-kabi.com/news/help-for-communities-in-crisis",
+      "source": "SITEMAPS",
+      "targetPath": "/news/help-for-communities-in-crisis",
+      "id": "8877e028abab731cd2c3c371bc3d7f74301aad6b"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/downloads",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/klinische-ernaehrung/downloads",
-      "id": "7de809a72d13d9cae78a704552ba28dc8ef2f40e"
+      "url": "https://www.fresenius-kabi.com/news/heroes-who-save-lives-thank-you-to-all-blood-and-plasma-donors",
+      "source": "SITEMAPS",
+      "targetPath": "/news/heroes-who-save-lives-thank-you-to-all-blood-and-plasma-donors",
+      "id": "091bbab3ef4e847971032b3d01930b714791f195"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/klinische-ernaehrung/enterale-ernaehrung",
-      "id": "e5a4f9f4ccdc6f2749d5872a9554423fbf60825b"
+      "url": "https://www.fresenius-kabi.com/news/international-day-of-women-in-science-interview-with-jumpstart-winner",
+      "source": "SITEMAPS",
+      "targetPath": "/news/international-day-of-women-in-science-interview-with-jumpstart-winner",
+      "id": "0b82a1589672d39ca8b5a2c4e8cd5c89db73a064"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente",
-      "id": "e3c8c30904a0d3e94079b0f87a8c00ea63f9c796"
+      "url": "https://www.fresenius-kabi.com/news/ivenix-infusion-system-is-recognized-by-klas-research",
+      "source": "SITEMAPS",
+      "targetPath": "/news/ivenix-infusion-system-is-recognized-by-klas-research",
+      "id": "ad295edb9e3b4e493e3f0fa249f0784a39670144"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/diben-1-5-kcal-hp",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/diben-1-5-kcal-hp",
-      "id": "f27c098391646c408249f1b52abda5752e34eef0"
+      "url": "https://www.fresenius-kabi.com/news/jumpstart-2022-driving-research-in-clinical-nutrition",
+      "source": "SITEMAPS",
+      "targetPath": "/news/jumpstart-2022-driving-research-in-clinical-nutrition",
+      "id": "05e52e9a3cbaf7adac0da6c84793222b279991cb"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/frebini-energy",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/frebini-energy",
-      "id": "a7af19d202f9edba9908eaca5554d811d21cd0a3"
+      "url": "https://www.fresenius-kabi.com/news/jumpstart-clinical-nutrition-alumni-program",
+      "source": "SITEMAPS",
+      "targetPath": "/news/jumpstart-clinical-nutrition-alumni-program",
+      "id": "88196272725a419172a286f1a24590ba7c03254c"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/nahrungsergaenzungsmittel",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/klinische-ernaehrung/nahrungsergaenzungsmittel",
-      "id": "e52080ecd4d580ecda9c57aeb20d20c093b43ea8"
+      "url": "https://www.fresenius-kabi.com/news/jumpstart-clinical-nutrition-award-winner",
+      "source": "SITEMAPS",
+      "targetPath": "/news/jumpstart-clinical-nutrition-award-winner",
+      "id": "99b0636e1005e3e5ab7a2c8ae9ff2d8789b05b5e"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/nahrungsergaenzungsmittel/sideral",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/klinische-ernaehrung/nahrungsergaenzungsmittel/sideral",
-      "id": "618d153a57718268388cdea8c70ede61bdf18114"
+      "url": "https://www.fresenius-kabi.com/news/learning-and-creativity-for-little-patients",
+      "source": "SITEMAPS",
+      "targetPath": "/news/learning-and-creativity-for-little-patients",
+      "id": "c34742889a5994f6624d70cb0463b57e4fd3e158"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/medizinprodukte",
-      "id": "cb66428222e48f5bd58e695616f13bb0c6590692"
+      "url": "https://www.fresenius-kabi.com/news/michael-sen-succeeds-former-fresenius-ceo-stephan-sturm",
+      "source": "SITEMAPS",
+      "targetPath": "/news/michael-sen-succeeds-former-fresenius-ceo-stephan-sturm",
+      "id": "7187ba63b853667de7e4a1098a88e92f5536c9e3"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/applikationstechnik-und-systeme",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/medizinprodukte/applikationstechnik-und-systeme",
-      "id": "1db81bff10ba4004ad5d697da9f1dbdd465bbe3d"
+      "url": "https://www.fresenius-kabi.com/news/new-appointments-to-the-management-board-at-fresenius",
+      "source": "SITEMAPS",
+      "targetPath": "/news/new-appointments-to-the-management-board-at-fresenius",
+      "id": "c8cc56ebcdbdec8e90bf77aa20ca79129e724078"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/applikationstechnik-und-systeme/applikationstechnik-und-systeme-fuer-die-enterale-ernaehrung/applikationssysteme-fuer-die-enterale-ernaehrung/enterale-ernaehrungssonden/austauschsysteme",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/medizinprodukte/applikationstechnik-und-systeme/applikationstechnik-und-systeme-fuer-die-enterale-ernaehrung/applikationssysteme-fuer-die-enterale-ernaehrung/enterale-ernaehrungssonden/austauschsysteme",
-      "id": "66c98eb01f7176f20efb8d5aa64e1047a1fafc82"
+      "url": "https://www.fresenius-kabi.com/news/orf-film-plant-fresenius-kabi-austria",
+      "source": "SITEMAPS",
+      "targetPath": "/news/orf-film-plant-fresenius-kabi-austria",
+      "id": "8c5fcfc7f81d7b9d2cdb83ca24a21f28d409c7ea"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/applikationstechnik-und-systeme/applikationstechnik-und-systeme-fuer-die-enterale-ernaehrung/applikationssysteme-fuer-die-enterale-ernaehrung/enterale-ernaehrungssonden/austauschsysteme/freka-button",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/medizinprodukte/applikationstechnik-und-systeme/applikationstechnik-und-systeme-fuer-die-enterale-ernaehrung/applikationssysteme-fuer-die-enterale-ernaehrung/enterale-ernaehrungssonden/austauschsysteme/freka-button",
-      "id": "bd9e621f7a0091e763665d5c3283b09efa9948af"
+      "url": "https://www.fresenius-kabi.com/news/our-commitment-to-fight-antimicrobial-resistance",
+      "source": "SITEMAPS",
+      "targetPath": "/news/our-commitment-to-fight-antimicrobial-resistance",
+      "id": "4916527f7c607b98fdcfef1a8e666ddf409b0dad"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/applikationstechnik-und-systeme/monitoring",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/medizinprodukte/applikationstechnik-und-systeme/monitoring",
-      "id": "af1dedc21f8fb4907c2b117b59246dcd3dcbdd1a"
+      "url": "https://www.fresenius-kabi.com/news/paving-the-way-for-the-future-of-blood-transfusions",
+      "source": "SITEMAPS",
+      "targetPath": "/news/paving-the-way-for-the-future-of-blood-transfusions",
+      "id": "6634ea37de3f608abc6d9b71589986ba0f0a11ba"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/applikationstechnik-und-systeme/monitoring/anaesthesiemonitoring-conox-qm-7000m",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/medizinprodukte/applikationstechnik-und-systeme/monitoring/anaesthesiemonitoring-conox-qm-7000m",
-      "id": "943c1c57528413430ff93c27241b02ca297f5bb9"
+      "url": "https://www.fresenius-kabi.com/news/press-release-fse-q3-2023",
+      "source": "SITEMAPS",
+      "targetPath": "/news/press-release-fse-q3-2023",
+      "id": "dd7470b7bf7a3748240df07ba71009833155a219"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/downloads",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/medizinprodukte/downloads",
-      "id": "0f26fa1adea09f7d84531cfe8e7fdcd9f80c8689"
+      "url": "https://www.fresenius-kabi.com/news/revision-of-group-guidance-for-2022-by-fresenius",
+      "source": "SITEMAPS",
+      "targetPath": "/news/revision-of-group-guidance-for-2022-by-fresenius",
+      "id": "a19736999b7b5b79385acdd0fd4f3d8e9fd5655e"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/mdr",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/medizinprodukte/mdr",
-      "id": "96a5fa53f7cb1049b624ffb44603664226227b08"
+      "url": "https://www.fresenius-kabi.com/news/strong-development-of-the-operating-companies-in-q1-23",
+      "source": "SITEMAPS",
+      "targetPath": "/news/strong-development-of-the-operating-companies-in-q1-23",
+      "id": "260b7047ec4bce643ffe21a47a2e2e522f3170c8"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/spuelloesungen-und-applikationen-urologie",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/medizinprodukte/spuelloesungen-und-applikationen-urologie",
-      "id": "65e8ed00c9f882139923a585682a3ddab6a369d3"
+      "url": "https://www.fresenius-kabi.com/news/supporting-conscious-choices-in-nutritional-care",
+      "source": "SITEMAPS",
+      "targetPath": "/news/supporting-conscious-choices-in-nutritional-care",
+      "id": "681895aa9a3f2dabd195d07064d080c8c6176691"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/spuelloesungen-und-applikationen-urologie/ablaufschlaeuche-und-adapter",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/medizinprodukte/spuelloesungen-und-applikationen-urologie/ablaufschlaeuche-und-adapter",
-      "id": "3a931c0ea6934d2606d0370ead0f76876d1f66fb"
+      "url": "https://www.fresenius-kabi.com/news/ten-years-of-blood-donation-activity-across-china",
+      "source": "SITEMAPS",
+      "targetPath": "/news/ten-years-of-blood-donation-activity-across-china",
+      "id": "ccf814f0202a3be7bf8efa4cbdb1f0c2561f864c"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/spuelloesungen-und-applikationen-urologie/ablaufschlaeuche-und-adapter/zuspitz-adapter-care-lock-einzeln-steril",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/medizinprodukte/spuelloesungen-und-applikationen-urologie/ablaufschlaeuche-und-adapter/zuspitz-adapter-care-lock-einzeln-steril",
-      "id": "b5b14a4568cb7b69aa7b076502dc5ba86a42afc3"
+      "url": "https://www.fresenius-kabi.com/news/the-gift-of-life-a-decision-to-donate-blood-or-plasma",
+      "source": "SITEMAPS",
+      "targetPath": "/news/the-gift-of-life-a-decision-to-donate-blood-or-plasma",
+      "id": "0422b2239ae923d12d469e12dc28a4ad791efe6b"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/spuelloesungen-und-applikationen-urologie/auffang-und-aufhaengesysteme-fuer-spuelloesungen",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/medizinprodukte/spuelloesungen-und-applikationen-urologie/auffang-und-aufhaengesysteme-fuer-spuelloesungen",
-      "id": "66275ccf0f5c5f0d142d2129be7fc38feaf78434"
+      "url": "https://www.fresenius-kabi.com/news/top-employer-in-nine-countries",
+      "source": "SITEMAPS",
+      "targetPath": "/news/top-employer-in-nine-countries",
+      "id": "7f4921673acb6db296ba687a48292b51c66d4a20"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/spuelloesungen-und-applikationen-urologie/auffang-und-aufhaengesysteme-fuer-spuelloesungen/endoschild",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/medizinprodukte/spuelloesungen-und-applikationen-urologie/auffang-und-aufhaengesysteme-fuer-spuelloesungen/endoschild",
-      "id": "dfa0a84fab16b68bbc203be46434d9ad4397c95d"
+      "url": "https://www.fresenius-kabi.com/news/update-on-humanitarian-aid-for-ukraine",
+      "source": "SITEMAPS",
+      "targetPath": "/news/update-on-humanitarian-aid-for-ukraine",
+      "id": "5b665a47ad5d4ddf9d0347374157aaea195abb2b"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/spuelloesungen-und-applikationen-urologie/laxantien",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/medizinprodukte/spuelloesungen-und-applikationen-urologie/laxantien",
-      "id": "832881b3f4a0346b0a544b548c94174b852e2777"
+      "url": "https://www.fresenius-kabi.com/news/ustekinumab-biosimilar-ema-submission-acceptance",
+      "source": "SITEMAPS",
+      "targetPath": "/news/ustekinumab-biosimilar-ema-submission-acceptance",
+      "id": "854b87e6008dce08b115a5df6b055a093109e3ff"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/spuelloesungen-und-applikationen-urologie/laxantien/freka-clyss",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/medizinprodukte/spuelloesungen-und-applikationen-urologie/laxantien/freka-clyss",
-      "id": "73b8f9fe3a8d509bcba95b594eac65e6fed51b33"
+      "url": "https://www.fresenius-kabi.com/news/virginia-oncology-associates-chooses-the-ivenix-infusion-system",
+      "source": "SITEMAPS",
+      "targetPath": "/news/virginia-oncology-associates-chooses-the-ivenix-infusion-system",
+      "id": "b36659c7cb34262f338889653b12c2cc13219284"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/spuelloesungen-und-applikationen-urologie/spuelloesungen",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/medizinprodukte/spuelloesungen-und-applikationen-urologie/spuelloesungen",
-      "id": "f7e5c54d828b98abfb4870b93a91e633f12ea0dd"
+      "url": "https://www.fresenius-kabi.com/news/vision-2026-fresenius-kabi-healthy-growth-journey",
+      "source": "SITEMAPS",
+      "targetPath": "/news/vision-2026-fresenius-kabi-healthy-growth-journey",
+      "id": "ba48a6a8229e4f206efc9f37b08d85ae4ce9328e"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/transfusionsmedizin-und-zelltherapie",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/medizinprodukte/transfusionsmedizin-und-zelltherapie",
-      "id": "8f4d96731e81cef08a5d3b0d1a3707c0d442aa0f"
+      "url": "https://www.fresenius-kabi.com/news/vizient-innovative-technology-contract-awarded-fresenius-kabi",
+      "source": "SITEMAPS",
+      "targetPath": "/news/vizient-innovative-technology-contract-awarded-fresenius-kabi",
+      "id": "978e5aad2c187da137c4935e140a42cca5790348"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/transfusionsmedizin-und-zelltherapie/apherese",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/medizinprodukte/transfusionsmedizin-und-zelltherapie/apherese",
-      "id": "69ebf05fdaa8f9dd5316c2f9db63fe32a8102db2"
+      "url": "https://www.fresenius-kabi.com/news/waterproof-zip-toiletry-bag-wins-queen-silvia-nursing-award",
+      "source": "SITEMAPS",
+      "targetPath": "/news/waterproof-zip-toiletry-bag-wins-queen-silvia-nursing-award",
+      "id": "a8aa3383c992dbc0ab0123d8f8011d59bd942ad8"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/transfusionsmedizin-und-zelltherapie/apherese/amicore",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/medizinprodukte/transfusionsmedizin-und-zelltherapie/apherese/amicore",
-      "id": "28d2d81edfc68c69135c500e4ace9421d74ef4dc"
+      "url": "https://www.fresenius-kabi.com/portfolio",
+      "source": "SITEMAPS",
+      "targetPath": "/portfolio",
+      "id": "41fa8e5b2448aeca158523fc66557eb5f8b68e48"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/transfusionsmedizin-und-zelltherapie/apherese/amicus",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/medizinprodukte/transfusionsmedizin-und-zelltherapie/apherese/amicus",
-      "id": "8bbe7101b5f4500b7c289921fd08f6d8c3a42570"
+      "url": "https://www.fresenius-kabi.com/portfolio/biopharma",
+      "source": "SITEMAPS",
+      "targetPath": "/portfolio/biopharma",
+      "id": "2b5092f0d0b0ae38122bb486dc3eeaa7367c5729"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/transfusionsmedizin-und-zelltherapie/apherese/com-tec",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/medizinprodukte/transfusionsmedizin-und-zelltherapie/apherese/com-tec",
-      "id": "95f1c3688d9e964dc7582fc97ad41daf046bb2d9"
+      "url": "https://www.fresenius-kabi.com/portfolio/medtech",
+      "source": "SITEMAPS",
+      "targetPath": "/portfolio/medtech",
+      "id": "e5e845869c43062bfa57baafe19c04696020a79b"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/transfusionsmedizin-und-zelltherapie/plasmapherese",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/medizinprodukte/transfusionsmedizin-und-zelltherapie/plasmapherese",
-      "id": "e0ace268feb522e2358ed099b1879708c343c6b7"
+      "url": "https://www.fresenius-kabi.com/portfolio/medtech/dmea-congress",
+      "source": "SITEMAPS",
+      "targetPath": "/portfolio/medtech/dmea-congress",
+      "id": "51722e4ac66c3bca93e1eda7d2a010eb4fdddaac"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/transfusionsmedizin-und-zelltherapie/plasmapherese/aurora",
-      "source": "MANUAL",
-      "targetPath": "/de/portfolio/medizinprodukte/transfusionsmedizin-und-zelltherapie/plasmapherese/aurora",
-      "id": "2807f23eb498f3ae885dcab4ef08e18d4a7f9717"
+      "url": "https://www.fresenius-kabi.com/portfolio/medtech/ebmt-congress",
+      "source": "SITEMAPS",
+      "targetPath": "/portfolio/medtech/ebmt-congress",
+      "id": "05b220f10521ff89b50027174bf7b5fb23a53ba2"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/pressemitteilungen",
-      "source": "MANUAL",
-      "targetPath": "/de/pressemitteilungen",
-      "id": "1651e856b71b24e360590924a7042e80cb2610fe"
+      "url": "https://www.fresenius-kabi.com/portfolio/medtech/electronic-instructions-for-use-devices",
+      "source": "SITEMAPS",
+      "targetPath": "/portfolio/medtech/electronic-instructions-for-use-devices",
+      "id": "8af84c34a6f71a840d8286ea9715a89cb9bdc71d"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/pressemitteilungen/50-jahre-fresubin",
-      "source": "MANUAL",
-      "targetPath": "/de/pressemitteilungen/50-jahre-fresubin",
-      "id": "560584bbf4024a1d19c9d71c1d3cd485ecf64f4a"
+      "url": "https://www.fresenius-kabi.com/portfolio/medtech/esge-days",
+      "source": "SITEMAPS",
+      "targetPath": "/portfolio/medtech/esge-days",
+      "id": "20eb465f9e05dcf396822fb23f667cd48a42b8cd"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/pressemitteilungen/aus-der-pflege-fuer-die-pflege--queen-silvia-nursing-award-2023-",
-      "source": "MANUAL",
-      "targetPath": "/de/pressemitteilungen/aus-der-pflege-fuer-die-pflege-queen-silvia-nursing-award-2023",
-      "id": "2d2e2afcb4158223950e2cccc439f483928dd3ed"
+      "url": "https://www.fresenius-kabi.com/portfolio/medtech/isbt-congress",
+      "source": "SITEMAPS",
+      "targetPath": "/portfolio/medtech/isbt-congress",
+      "id": "c2933dc771e3c4bfa375f4f0cde84b205f010d0a"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/pressemitteilungen/das-neue-autofusion-set",
-      "source": "MANUAL",
-      "targetPath": "/de/pressemitteilungen/das-neue-autofusion-set",
-      "id": "640954aad319eb3c59351b499db2d737321c2ca7"
+      "url": "https://www.fresenius-kabi.com/portfolio/nutrition",
+      "source": "SITEMAPS",
+      "targetPath": "/portfolio/nutrition",
+      "id": "c51d083baf473d65901fe1027fedb6bc04f5c81d"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/rechtliche-hinweise",
-      "source": "MANUAL",
-      "targetPath": "/de/rechtliche-hinweise",
-      "id": "664fde484c754011dd673f31aba4b1181f81688f"
+      "url": "https://www.fresenius-kabi.com/portfolio/nutrition/chronic-kidney-disease",
+      "source": "SITEMAPS",
+      "targetPath": "/portfolio/nutrition/chronic-kidney-disease",
+      "id": "d08eae58bcda17ec4bef52584fa65f3ad9aff6af"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/unternehmen",
-      "source": "MANUAL",
-      "targetPath": "/de/unternehmen",
-      "id": "601c184b0480748fc7681e3a85cd9c6198e96af7"
+      "url": "https://www.fresenius-kabi.com/portfolio/nutrition/espen-congress",
+      "source": "SITEMAPS",
+      "targetPath": "/portfolio/nutrition/espen-congress",
+      "id": "2f8321c26507234c366e74f2ff2140e94fde5d9b"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/unternehmen/einblicke",
-      "source": "MANUAL",
-      "targetPath": "/de/unternehmen/einblicke",
-      "id": "3b9e00586f145e9a3a126a4d3287eb483547df35"
+      "url": "https://www.fresenius-kabi.com/portfolio/nutrition/global-nutrition-webinar",
+      "source": "SITEMAPS",
+      "targetPath": "/portfolio/nutrition/global-nutrition-webinar",
+      "id": "36c7f79e86cdff57e8408c368e418d30dfa38b28"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/unternehmen/einblicke/leben-mit-parenteraler-ernaehrung",
-      "source": "MANUAL",
-      "targetPath": "/de/unternehmen/einblicke/leben-mit-parenteraler-ernaehrung",
-      "id": "d51d95a05d992ce29683c84169f6e096b591a84c"
+      "url": "https://www.fresenius-kabi.com/portfolio/pharma",
+      "source": "SITEMAPS",
+      "targetPath": "/portfolio/pharma",
+      "id": "d01724ac5334c27048f847f60b39407e27b315cb"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/unternehmen/reach",
-      "source": "MANUAL",
-      "targetPath": "/de/unternehmen/reach",
-      "id": "6523cdbbc6c24f7f2d12d0076826b57b7d420d0c"
+      "url": "https://www.fresenius-kabi.com/sustainability",
+      "source": "SITEMAPS",
+      "targetPath": "/sustainability",
+      "id": "92c7f21fa3ee2ece686799646707e75e0d072f4c"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/unternehmen/soziales-engagement",
-      "source": "MANUAL",
-      "targetPath": "/de/unternehmen/soziales-engagement",
-      "id": "82ce1f06fdef190ee6ec04c0ed8d169d6c64287b"
+      "url": "https://www.fresenius-kabi.com/sustainability/business-ethics",
+      "source": "SITEMAPS",
+      "targetPath": "/sustainability/business-ethics",
+      "id": "591cb9646746f9ba524bbd450ae446a4a3b3f4c0"
     },
     {
-      "url": "https://www.fresenius-kabi.com/de/unternehmen/soziales-engagement/aktivhelfentage/aktivhelfen_tag_in_hamburg_2023",
-      "source": "MANUAL",
-      "targetPath": "/de/unternehmen/soziales-engagement/aktivhelfentage/aktivhelfen-tag-in-hamburg-2023",
-      "id": "d8a3ae9052c8dbf015e867a152aaf0b5cc80f336"
+      "url": "https://www.fresenius-kabi.com/sustainability/community",
+      "source": "SITEMAPS",
+      "targetPath": "/sustainability/community",
+      "id": "434dc1ee235bfe33c4e5d697149d8221dcf8cbdc"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/sustainability/employees",
+      "source": "SITEMAPS",
+      "targetPath": "/sustainability/employees",
+      "id": "434a612ee054b9e1430aaf4f62f9319d605e0d92"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/sustainability/environment",
+      "source": "SITEMAPS",
+      "targetPath": "/sustainability/environment",
+      "id": "610cae428dc54741d5e925d222ce5f5b5ac8c2e9"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/sustainability/quality-management",
+      "source": "SITEMAPS",
+      "targetPath": "/sustainability/quality-management",
+      "id": "c980ae664fb200f1cf88ca058d83036a58f5ce98"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/work-with-us",
+      "source": "SITEMAPS",
+      "targetPath": "/work-with-us",
+      "id": "3e26c7017944e21c14d4fb6e7e50b5ab12b79e47"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/work-with-us/why-us",
+      "source": "SITEMAPS",
+      "targetPath": "/work-with-us/why-us",
+      "id": "ec3e22969b546e7fdd6c8dd09aaec8e53a3f2e12"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/work-with-us/your-opportunities",
+      "source": "SITEMAPS",
+      "targetPath": "/work-with-us/your-opportunities",
+      "id": "80bd4555e57f1e0b281e124d6fc537d6796cc3bb"
     }
   ],
-  "lastCrawled": null,
   "crawlOptions": {
+    "timeout": 64800000,
+    "inclusionPatterns": [],
+    "exclusionPatterns": [],
     "limit": 100,
-    "strategy": "manual",
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "sitemaps",
+    "logger": {},
     "strategiesAttempted": [
-      "MANUAL"
+      "SITEMAPS"
     ]
   },
-  "extractionErrors": [
-    {
-      "message": "resource crawl error: Url https://www.fresenius-kabi.com/de/email-abmeldung: 301 Moved Permanently Redirect: https://www.fresenius-kabi.com/de",
-      "url": "https://www.fresenius-kabi.com/de/email-abmeldung"
-    }
-  ],
-  "errorCountMessage": "{\"E_301\":1}"
+  "extractionErrors": [],
+  "errorCountMessage": "none",
+  "error": null
 }
