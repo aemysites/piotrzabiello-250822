@@ -6,43 +6,43 @@
     {
       "url": "https://www.fresenius-kabi.com/de",
       "source": "MANUAL",
-      "targetPath": "/",
+      "targetPath": "/de",
       "id": "a6ef1c412a6a474f4e09a2b645743828b6498d50"
     },
     {
       "url": "https://www.fresenius-kabi.com/de/unternehmen",
       "source": "MANUAL",
-      "targetPath": "/",
+      "targetPath": "/de/unternehmen",
       "id": "a6ef1c412a6a474f4e09a2b645743828b6498d51"
     },
     {
       "url": "https://www.fresenius-kabi.com/de/unternehmen/qualitaetsmanagement",
       "source": "MANUAL",
-      "targetPath": "/",
+      "targetPath": "/de/unternehmen/qualitaetsmanagement",
       "id": "a6ef1c412a6a474f4e09a2b645743828b6498d52"
     },
     {
       "url": "https://www.fresenius-kabi.com/de/unternehmen/transparenzinitiative",
       "source": "MANUAL",
-      "targetPath": "/",
+      "targetPath": "/de/unternehmen/transparenzinitiative",
       "id": "a6ef1c412a6a474f4e09a2b645743828b6498d53"
     },
     {
       "url": "https://www.fresenius-kabi.com/de/unternehmen/soziales-engagement",
       "source": "MANUAL",
-      "targetPath": "/",
+      "targetPath": "/de/unternehmen/soziales-engagement",
       "id": "a6ef1c412a6a474f4e09a2b645743828b6498d54"
     },
     {
       "url": "https://www.fresenius-kabi.com/de/portfolio/intravenoese-arzneimittel",
       "source": "MANUAL",
-      "targetPath": "/",
+      "targetPath": "/de/portfolio/intravenoese-arzneimittel",
       "id": "a6ef1c412a6a474f4e09a2b645743828b6498d55"
     },
     {
       "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung",
       "source": "MANUAL",
-      "targetPath": "/",
+      "targetPath": "/de/portfolio/klinische-ernaehrung",
       "id": "a6ef1c412a6a474f4e09a2b645743828b6498d56"
     }
   ],
