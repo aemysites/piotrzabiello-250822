@@ -1,43 +1,43 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // 1. Header row: matches exact example
-  const headerRow = ['Columns (columns18)'];
-
-  // 2. Extract the left column: the content description
-  // This is a div with class 'b-description', which contains actual text
-  // We want to reference the actual element for robustness
-  let leftCol = null;
-  const scrollContent = element.querySelector('.b-scrollabel-content');
-  if (scrollContent) {
-    // We expect: .b-content > .b-description
-    const content = scrollContent.querySelector('.b-content');
-    if (content) {
-      // .b-description holds the text (with .b-text inside)
-      const desc = content.querySelector('.b-description');
-      if (desc) {
-        leftCol = desc;
-      }
+  // Defensive: Find main content and buttons for columns
+  // Column 1: Description
+  let description = null;
+  const descContainer = element.querySelector('.b-description');
+  if (descContainer) {
+    description = descContainer;
+  } else {
+    // fallback: first <div> with <p>
+    const fallbackDesc = element.querySelector('div p');
+    if (fallbackDesc) {
+      description = fallbackDesc.parentElement;
     }
   }
 
-  // 3. Extract the right column: the block of buttons
-  // This is the '.b-flex.b-buttons' element (which includes all buttons)
-  let rightCol = null;
-  const buttonsBlock = element.querySelector('.b-flex.b-buttons');
-  if (buttonsBlock) {
-    rightCol = buttonsBlock;
+  // Column 2: Buttons (all buttons grouped)
+  // There are two button containers: .b-buttons and its child .b-flex
+  let buttonsCell = null;
+  const buttonsContainer = element.querySelector('.b-buttons');
+  if (buttonsContainer) {
+    // Get all direct button children and also those inside nested .b-flex
+    const directButtons = Array.from(buttonsContainer.querySelectorAll(':scope > button'));
+    const nestedFlex = buttonsContainer.querySelector('.b-flex');
+    let nestedButtons = [];
+    if (nestedFlex) {
+      nestedButtons = Array.from(nestedFlex.querySelectorAll('button'));
+    }
+    // Combine all buttons into a single cell
+    buttonsCell = [...directButtons, ...nestedButtons];
   }
 
-  // 4. Build the table respecting example structure: header (single column), then content row (two columns)
-  // If any column is missing, fill with empty string (preserves structure)
-  const cells = [
-    headerRow,
-    [leftCol || '', rightCol || '']
-  ];
-  
-  // 5. Create block table
+  // Build the table rows
+  const headerRow = ['Columns (columns18)'];
+  const contentRow = [description, buttonsCell];
+
+  // Create the block table
+  const cells = [headerRow, contentRow];
   const block = WebImporter.DOMUtils.createTable(cells, document);
 
-  // 6. Replace the original element with the block
+  // Replace the original element
   element.replaceWith(block);
 }

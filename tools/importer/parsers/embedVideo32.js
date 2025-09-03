@@ -1,42 +1,55 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Exact header as in the example
+  // Header row as specified
   const headerRow = ['Embed (embedVideo32)'];
 
-  // Collect direct text nodes under element (if any)
-  const cellContent = [];
-  Array.from(element.childNodes).forEach((node) => {
-    if (node.nodeType === Node.TEXT_NODE && node.textContent.trim()) {
-      const p = document.createElement('p');
-      p.textContent = node.textContent.trim();
-      cellContent.push(p);
-    } else if (node.nodeType === Node.ELEMENT_NODE) {
-      // If node is a video element, extract its src as a link
-      if (node.tagName.toLowerCase() === 'video') {
-        const source = node.querySelector('source');
-        if (source && source.getAttribute('src')) {
-          const link = document.createElement('a');
-          link.href = source.getAttribute('src');
-          link.textContent = source.getAttribute('src');
-          cellContent.push(link);
-        }
-      } else {
-        // For other elements (e.g., buttons), include them
-        cellContent.push(node);
+  // Find the video element and its source
+  const video = element.querySelector('video');
+  let videoUrl = '';
+  if (video) {
+    const source = video.querySelector('source');
+    if (source && source.getAttribute('src')) {
+      const src = source.getAttribute('src');
+      // Use document.baseURI to resolve relative URLs correctly
+      try {
+        videoUrl = new URL(src, document.baseURI).href;
+      } catch (e) {
+        videoUrl = src;
       }
     }
-  });
-
-  // Fallback: if nothing found, include the element itself
-  if (cellContent.length === 0) {
-    cellContent.push(element);
   }
 
-  const cells = [
-    headerRow,
-    [cellContent]
-  ];
+  // Get all text content from the element (including button label if present)
+  let textContent = '';
+  // Get visible text nodes (not just from <button>, but any text)
+  Array.from(element.childNodes).forEach((node) => {
+    if (node.nodeType === Node.TEXT_NODE) {
+      textContent += node.textContent.trim() + ' ';
+    } else if (node.nodeType === Node.ELEMENT_NODE) {
+      textContent += node.textContent.trim() + ' ';
+    }
+  });
+  textContent = textContent.trim();
 
-  const table = WebImporter.DOMUtils.createTable(cells, document);
-  element.replaceWith(table);
+  // Compose the cell: link and any text content
+  let cellContent = [];
+  if (videoUrl) {
+    const videoLink = document.createElement('a');
+    videoLink.href = videoUrl;
+    videoLink.textContent = videoUrl;
+    cellContent.push(videoLink);
+  }
+  if (textContent) {
+    cellContent.push(document.createTextNode(textContent));
+  }
+  if (cellContent.length === 0) {
+    cellContent = [''];
+  }
+
+  // Build the table
+  const cells = [headerRow, [cellContent]];
+  const block = WebImporter.DOMUtils.createTable(cells, document);
+
+  // Replace the original element
+  element.replaceWith(block);
 }
