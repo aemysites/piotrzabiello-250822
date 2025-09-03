@@ -1,51 +1,51 @@
 {
   "originUrl": "https://www.fresenius-kabi.com",
   "aborted": false,
-  "lastCrawled": "https://www.fresenius-kabi.com/",
   "urls": [
     {
       "url": "https://www.fresenius-kabi.com/de",
       "source": "MANUAL",
       "targetPath": "/de",
-      "id": "a6ef1c412a6a474f4e09a2b645743828b6498d50"
-    },
-    {
-      "url": "https://www.fresenius-kabi.com/de/unternehmen",
-      "source": "MANUAL",
-      "targetPath": "/de/unternehmen",
-      "id": "a6ef1c412a6a474f4e09a2b645743828b6498d51"
-    },
-    {
-      "url": "https://www.fresenius-kabi.com/de/unternehmen/qualitaetsmanagement",
-      "source": "MANUAL",
-      "targetPath": "/de/unternehmen/qualitaetsmanagement",
-      "id": "a6ef1c412a6a474f4e09a2b645743828b6498d52"
-    },
-    {
-      "url": "https://www.fresenius-kabi.com/de/unternehmen/transparenzinitiative",
-      "source": "MANUAL",
-      "targetPath": "/de/unternehmen/transparenzinitiative",
-      "id": "a6ef1c412a6a474f4e09a2b645743828b6498d53"
-    },
-    {
-      "url": "https://www.fresenius-kabi.com/de/unternehmen/soziales-engagement",
-      "source": "MANUAL",
-      "targetPath": "/de/unternehmen/soziales-engagement",
-      "id": "a6ef1c412a6a474f4e09a2b645743828b6498d54"
+      "id": "7fa8da69f71245979befd916028f8d85c5fb10d3"
     },
     {
       "url": "https://www.fresenius-kabi.com/de/portfolio/intravenoese-arzneimittel",
       "source": "MANUAL",
       "targetPath": "/de/portfolio/intravenoese-arzneimittel",
-      "id": "a6ef1c412a6a474f4e09a2b645743828b6498d55"
+      "id": "fc5384c7e65e697df0edd85afd47e1a7b2da1884"
     },
     {
       "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung",
       "source": "MANUAL",
       "targetPath": "/de/portfolio/klinische-ernaehrung",
-      "id": "a6ef1c412a6a474f4e09a2b645743828b6498d56"
+      "id": "745eab604dbae34dd806e774dc4a478f60e57d94"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen",
+      "source": "MANUAL",
+      "targetPath": "/de/unternehmen",
+      "id": "601c184b0480748fc7681e3a85cd9c6198e96af7"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen/qualitaetsmanagement",
+      "source": "MANUAL",
+      "targetPath": "/de/unternehmen/qualitaetsmanagement",
+      "id": "dfc65db4853b9600ff0afe500607d153a2e40301"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen/soziales-engagement",
+      "source": "MANUAL",
+      "targetPath": "/de/unternehmen/soziales-engagement",
+      "id": "82ce1f06fdef190ee6ec04c0ed8d169d6c64287b"
+    },
+    {
+      "url": "https://www.fresenius-kabi.com/de/unternehmen/transparenzinitiative",
+      "source": "MANUAL",
+      "targetPath": "/de/unternehmen/transparenzinitiative",
+      "id": "96c89ec201153a903ecf5ff6ebe0f76dd417cf8d"
     }
   ],
+  "lastCrawled": null,
   "crawlOptions": {
     "timeout": 64800000,
     "inclusionPatterns": [],
@@ -53,13 +53,11 @@
     "limit": 100,
     "sameDomain": true,
     "keepHash": false,
-    "strategy": "sitemaps",
-    "logger": {},
+    "strategy": "manual",
     "strategiesAttempted": [
-      "SITEMAPS"
+      "MANUAL"
     ]
   },
   "extractionErrors": [],
-  "errorCountMessage": "none",
-  "error": null
+  "errorCountMessage": "none"
 }
