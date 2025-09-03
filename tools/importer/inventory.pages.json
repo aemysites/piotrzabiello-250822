@@ -1,7 +1,7 @@
 {
   "templates": [
     {
-      "name": "'Content Overview Page'",
+      "name": "'Medical Information Template'",
       "cluster": 1,
       "pages": [
         {
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "name": "'News Listing'",
+      "name": "'Service Overview Page'",
       "cluster": 2,
       "pages": [
         {
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "name": "'Gallery Listing Page'",
+      "name": "'Gallery Page'",
       "cluster": 3,
       "pages": [
         {
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "name": "Corporate Homepage",
+      "name": "'Corporate Homepage'",
       "cluster": 4,
       "pages": [
         {
