@@ -274,17 +274,17 @@ main .section.light, main .section.highlight {
 }
 
 .section.section-3 {
-  background: rgb(0 0 0 / 0%) linear-gradient(90deg, rgb(255 255 255), rgb(247 246 245) 50%) repeat scroll 0% 0% / auto padding-box border-box;
+  background: rgb(0 115 221) none repeat scroll 0% 0% / auto padding-box border-box;
 }
 
 .section.section-4 {
-  background: rgb(0 0 0 / 0%) linear-gradient(270deg, rgb(255 255 255), rgb(247 246 245) 50%) repeat scroll 0% 0% / auto padding-box border-box;
+  background: rgb(0 0 0/0%) linear-gradient(270deg, rgb(255 255 255), rgb(247 246 245) 50%) repeat scroll 0% 0%/auto padding-box border-box;
 }
 
 .section.section-5 {
-  background: rgb(0 0 0 / 80%) none repeat scroll 0% 0% / auto padding-box border-box;
+  background: rgb(0 0 0/80%) none repeat scroll 0% 0%/auto padding-box border-box;
 }
 
 .section.section-6 {
-  background: rgb(0 115 221) none repeat scroll 0% 0% / auto padding-box border-box;
+  background: rgb(0 115 221) none repeat scroll 0% 0%/auto padding-box border-box;
 }
