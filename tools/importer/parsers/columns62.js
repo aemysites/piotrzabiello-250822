@@ -1,22 +1,25 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Find the left column (text content)
-  const leftCol = element.querySelector('.cmp-teaser__content');
-  // Find the right column (image)
-  const rightCol = element.querySelector('.cmp-teaser__image');
+  // Find the main content and image containers
+  const contentDiv = element.querySelector('.cmp-teaser__content');
+  const imageDiv = element.querySelector('.cmp-teaser__image');
 
-  // Defensive: If either column is missing, use empty cell
-  const leftCell = leftCol ? leftCol : document.createElement('div');
-  const rightCell = rightCol ? rightCol : document.createElement('div');
+  // Defensive: fallback if not found
+  const leftCol = contentDiv || element;
+  const rightCol = imageDiv || null;
 
-  // Table header row
+  // Table header as per block requirements
   const headerRow = ['Columns (columns62)'];
-  // Table columns row
-  const columnsRow = [leftCell, rightCell];
 
-  // Build table
-  const table = WebImporter.DOMUtils.createTable([headerRow, columnsRow], document);
+  // Prepare columns: left = text, right = image
+  const columnsRow = [leftCol, rightCol];
 
-  // Replace original element with table
+  // Build the table
+  const table = WebImporter.DOMUtils.createTable([
+    headerRow,
+    columnsRow
+  ], document);
+
+  // Replace the original element
   element.replaceWith(table);
 }

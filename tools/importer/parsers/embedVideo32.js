@@ -1,55 +1,60 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Header row as specified
+  // Header row for the block table
   const headerRow = ['Embed (embedVideo32)'];
 
-  // Find the video element and its source
+  // Find the <video> element and its <source>
   const video = element.querySelector('video');
   let videoUrl = '';
   if (video) {
     const source = video.querySelector('source');
-    if (source && source.getAttribute('src')) {
-      const src = source.getAttribute('src');
-      // Use document.baseURI to resolve relative URLs correctly
-      try {
-        videoUrl = new URL(src, document.baseURI).href;
-      } catch (e) {
-        videoUrl = src;
-      }
+    if (source && source.src) {
+      videoUrl = source.src;
     }
   }
 
-  // Get all text content from the element (including button label if present)
+  // Defensive: collect any visible text content from the element
   let textContent = '';
-  // Get visible text nodes (not just from <button>, but any text)
-  Array.from(element.childNodes).forEach((node) => {
-    if (node.nodeType === Node.TEXT_NODE) {
-      textContent += node.textContent.trim() + ' ';
-    } else if (node.nodeType === Node.ELEMENT_NODE) {
-      textContent += node.textContent.trim() + ' ';
+  // Get all text nodes inside the element
+  const walker = document.createTreeWalker(element, NodeFilter.SHOW_TEXT, {
+    acceptNode: (node) => {
+      // Only accept non-empty text
+      return node.textContent.trim() ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
     }
   });
+  let node;
+  while ((node = walker.nextNode())) {
+    textContent += node.textContent.trim() + ' ';
+  }
   textContent = textContent.trim();
 
-  // Compose the cell: link and any text content
-  let cellContent = [];
-  if (videoUrl) {
-    const videoLink = document.createElement('a');
-    videoLink.href = videoUrl;
-    videoLink.textContent = videoUrl;
-    cellContent.push(videoLink);
+  // Only proceed if we have a video URL
+  if (!videoUrl) {
+    return;
   }
+
+  // Create a link element to the video file
+  const link = document.createElement('a');
+  link.href = videoUrl;
+  link.textContent = videoUrl;
+
+  // Compose cell content: include text if present
+  let cellContent;
   if (textContent) {
-    cellContent.push(document.createTextNode(textContent));
+    cellContent = [textContent, document.createElement('br'), link];
+  } else {
+    cellContent = [link];
   }
-  if (cellContent.length === 0) {
-    cellContent = [''];
-  }
+
+  // Content row: cell with all content
+  const contentRow = [cellContent];
 
   // Build the table
-  const cells = [headerRow, [cellContent]];
-  const block = WebImporter.DOMUtils.createTable(cells, document);
+  const table = WebImporter.DOMUtils.createTable([
+    headerRow,
+    contentRow,
+  ], document);
 
-  // Replace the original element
-  element.replaceWith(block);
+  // Replace the original element with the table
+  element.replaceWith(table);
 }

@@ -1,54 +1,51 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Defensive: check if element exists
-  if (!element) return;
+  // Defensive: Only process if element contains accordion items
+  const items = Array.from(element.querySelectorAll('.cmp-accordion__item'));
+  if (!items.length) return;
 
-  // Table header as per block guidelines
+  // Header row as required
   const headerRow = ['Accordion (accordion64)'];
   const rows = [headerRow];
 
-  // Find all accordion items (immediate children with class 'cmp-accordion__item')
-  const items = element.querySelectorAll('.cmp-accordion__item');
-
   items.forEach((item) => {
-    // Title: find the span with class 'cmp-accordion__title' inside the button
-    let titleEl = item.querySelector('.cmp-accordion__title');
-    // Defensive: fallback to button text if span not found
-    if (!titleEl) {
-      const button = item.querySelector('button');
-      if (button) {
-        titleEl = document.createElement('span');
-        titleEl.textContent = button.textContent.trim();
-      }
-    }
-
-    // Content: find the panel div (with data-cmp-hook-accordion="panel")
-    const panel = item.querySelector('[data-cmp-hook-accordion="panel"]');
-    let contentCell;
-    if (panel) {
-      // Defensive: if panel has only one child, use that, else use the panel itself
-      // Usually, the content is a container with text blocks inside
-      // We'll use all children of the panel as the content cell
-      const children = Array.from(panel.children);
-      if (children.length === 1) {
-        contentCell = children[0];
-      } else if (children.length > 1) {
-        contentCell = children;
+    // Title: Find the button's title span
+    const button = item.querySelector('.cmp-accordion__button');
+    let title = '';
+    if (button) {
+      const titleSpan = button.querySelector('.cmp-accordion__title');
+      if (titleSpan) {
+        title = titleSpan.textContent.trim();
       } else {
-        // fallback: use panel itself
-        contentCell = panel;
+        // Fallback: use button text
+        title = button.textContent.trim();
       }
-    } else {
-      // fallback: empty cell
-      contentCell = document.createTextNode('');
     }
 
-    rows.push([titleEl, contentCell]);
+    // Content: Find the panel
+    const panel = item.querySelector('[data-cmp-hook-accordion="panel"]');
+    let content = '';
+    if (panel) {
+      // Defensive: Use the entire panel content
+      // But only reference the actual content, not the panel wrapper
+      // Find the first .cmp-text inside the panel
+      const textBlock = panel.querySelector('.cmp-text');
+      if (textBlock) {
+        content = textBlock;
+      } else {
+        // Fallback: use all children of panel
+        const panelChildren = Array.from(panel.children);
+        if (panelChildren.length) {
+          content = panelChildren;
+        } else {
+          content = panel;
+        }
+      }
+    }
+
+    rows.push([title, content]);
   });
 
-  // Create the block table
   const table = WebImporter.DOMUtils.createTable(rows, document);
-
-  // Replace the original element with the new table
   element.replaceWith(table);
 }

@@ -11,13 +11,14 @@
  */
 /* global WebImporter */
 /* eslint-disable no-console */
-import columns62Parser from './parsers/columns62.js';
+import columns2Parser from './parsers/columns2.js';
 import columns63Parser from './parsers/columns63.js';
-import columns38Parser from './parsers/columns38.js';
+import columns62Parser from './parsers/columns62.js';
 import columns18Parser from './parsers/columns18.js';
 import accordion64Parser from './parsers/accordion64.js';
 import cards10Parser from './parsers/cards10.js';
 import embedVideo32Parser from './parsers/embedVideo32.js';
+import columns38Parser from './parsers/columns38.js';
 import cards60Parser from './parsers/cards60.js';
 import headerParser from './parsers/header.js';
 import metadataParser from './parsers/metadata.js';
@@ -35,13 +36,14 @@ import {
 
 const parsers = {
   metadata: metadataParser,
-  columns62: columns62Parser,
+  columns2: columns2Parser,
   columns63: columns63Parser,
-  columns38: columns38Parser,
+  columns62: columns62Parser,
   columns18: columns18Parser,
   accordion64: accordion64Parser,
   cards10: cards10Parser,
   embedVideo32: embedVideo32Parser,
+  columns38: columns38Parser,
   cards60: cards60Parser,
   ...customParsers,
 };

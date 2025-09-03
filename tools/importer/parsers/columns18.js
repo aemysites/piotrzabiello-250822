@@ -1,43 +1,37 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Defensive: Find main content and buttons for columns
-  // Column 1: Description
-  let description = null;
-  const descContainer = element.querySelector('.b-description');
-  if (descContainer) {
-    description = descContainer;
+  // Defensive: get main content and button group
+  const contentWrapper = element.querySelector('.b-content');
+  const buttonsWrapper = element.querySelector('.b-buttons');
+
+  // First column: description text (grab the .b-description or .b-text)
+  let descriptionCol = null;
+  if (contentWrapper) {
+    // Prefer the .b-description div, fallback to .b-content
+    const desc = contentWrapper.querySelector('.b-description') || contentWrapper;
+    descriptionCol = desc;
   } else {
-    // fallback: first <div> with <p>
-    const fallbackDesc = element.querySelector('div p');
-    if (fallbackDesc) {
-      description = fallbackDesc.parentElement;
-    }
+    // fallback: use the whole element
+    descriptionCol = element;
   }
 
-  // Column 2: Buttons (all buttons grouped)
-  // There are two button containers: .b-buttons and its child .b-flex
-  let buttonsCell = null;
-  const buttonsContainer = element.querySelector('.b-buttons');
-  if (buttonsContainer) {
-    // Get all direct button children and also those inside nested .b-flex
-    const directButtons = Array.from(buttonsContainer.querySelectorAll(':scope > button'));
-    const nestedFlex = buttonsContainer.querySelector('.b-flex');
-    let nestedButtons = [];
-    if (nestedFlex) {
-      nestedButtons = Array.from(nestedFlex.querySelectorAll('button'));
-    }
-    // Combine all buttons into a single cell
-    buttonsCell = [...directButtons, ...nestedButtons];
+  // Second column: the buttons (all of them in a row)
+  let buttonsCol = null;
+  if (buttonsWrapper) {
+    buttonsCol = buttonsWrapper;
+  } else {
+    // fallback: empty div
+    buttonsCol = document.createElement('div');
   }
 
-  // Build the table rows
+  // Table structure: header, then one row with two columns
   const headerRow = ['Columns (columns18)'];
-  const contentRow = [description, buttonsCell];
+  const contentRow = [descriptionCol, buttonsCol];
 
-  // Create the block table
-  const cells = [headerRow, contentRow];
-  const block = WebImporter.DOMUtils.createTable(cells, document);
+  const table = WebImporter.DOMUtils.createTable([
+    headerRow,
+    contentRow,
+  ], document);
 
-  // Replace the original element
-  element.replaceWith(block);
+  element.replaceWith(table);
 }
