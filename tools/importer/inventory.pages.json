@@ -1,450 +1,54 @@
 {
   "templates": [
     {
-      "name": "Multi-Purpose Business Template",
+      "name": "'Content Overview Page'",
       "cluster": 1,
       "pages": [
         {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/mdr",
-          "uuid": "96a5fa53f7cb1049b624ffb44603664226227b08"
+          "url": "https://www.fresenius-kabi.com/de/unternehmen/qualitaetsmanagement",
+          "uuid": "dfc65db4853b9600ff0afe500607d153a2e40301"
         },
         {
-          "url": "https://www.fresenius-kabi.com/de/pressemitteilungen",
-          "uuid": "1651e856b71b24e360590924a7042e80cb2610fe"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/news",
-          "uuid": "e96b35c63f6108caabe850730209669013e130c9"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/biopharma/biosimilars",
-          "uuid": "e247c2fab9653d702216ea3bf24023530b6618ac"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de",
-          "uuid": "7fa8da69f71245979befd916028f8d85c5fb10d3"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/auftragserfassung-und-logistik",
-          "uuid": "600168f1d393c9d0c4a34bb9274a8b2976a6a4b8"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/medi1one",
-          "uuid": "2625ae217b6e7fccd5f74e0c36b3e993287e24d2"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/kontakt",
-          "uuid": "0baa01f0f682a2bb574d6346cad69ea436c99764"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/datenschutz",
-          "uuid": "889b2dbf81d657bad5de1049e076828b712d1cb4"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/dienstleistungen/datenschutzinformationen--homecareversorgung",
-          "uuid": "87b92fd94eac4383e17c337142d9e3eef165f96d"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/spuelloesungen-und-applikationen-urologie",
-          "uuid": "65e8ed00c9f882139923a585682a3ddab6a369d3"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/dienstleistungen/versorgungsmanagement-von-der-klinik-nach-hause",
-          "uuid": "ed9dc3b45865f83f5660d477109e722bd3593b5c"
+          "url": "https://www.fresenius-kabi.com/de/unternehmen/transparenzinitiative",
+          "uuid": "96c89ec201153a903ecf5ff6ebe0f76dd417cf8d"
         },
         {
           "url": "https://www.fresenius-kabi.com/de/unternehmen/soziales-engagement",
           "uuid": "82ce1f06fdef190ee6ec04c0ed8d169d6c64287b"
-        },
+        }
+      ]
+    },
+    {
+      "name": "'News Listing'",
+      "cluster": 2,
+      "pages": [
         {
           "url": "https://www.fresenius-kabi.com/de/unternehmen",
           "uuid": "601c184b0480748fc7681e3a85cd9c6198e96af7"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/dienstleistungen/logistik-management",
-          "uuid": "308c73601919eefa2cc3ea50aeea8a3349010719"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/unternehmen/einblicke",
-          "uuid": "3b9e00586f145e9a3a126a4d3287eb483547df35"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/pressemitteilungen/50-jahre-fresubin",
-          "uuid": "560584bbf4024a1d19c9d71c1d3cd485ecf64f4a"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/kontakt/unternehmen-kontakt",
-          "uuid": "ed53724ad96bcafed3e964f275f0458bb897b8ce"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/downloads",
-          "uuid": "0f26fa1adea09f7d84531cfe8e7fdcd9f80c8689"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/intravenoese-arzneimittel",
-          "uuid": "fc5384c7e65e697df0edd85afd47e1a7b2da1884"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/applikationstechnik-und-systeme",
-          "uuid": "1db81bff10ba4004ad5d697da9f1dbdd465bbe3d"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/biopharma",
-          "uuid": "00943795adbe2c1fc3c063f33376733f4a24eab4"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte",
-          "uuid": "cb66428222e48f5bd58e695616f13bb0c6590692"
-        },
+        }
+      ]
+    },
+    {
+      "name": "'Gallery Listing Page'",
+      "cluster": 3,
+      "pages": [
         {
           "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung",
           "uuid": "745eab604dbae34dd806e774dc4a478f60e57d94"
         },
         {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/infusionen",
-          "uuid": "aaf549f16210727b00a00710260e1ca5d3ff1c25"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/transfusionsmedizin-und-zelltherapie",
-          "uuid": "8f4d96731e81cef08a5d3b0d1a3707c0d442aa0f"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/dienstleistungen",
-          "uuid": "3099d69be9779332adbbc4f48702618ed53c1fcd"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/dienstleistungen/wissensakademie",
-          "uuid": "2d262b1144513d0eb1aa54e1ab3884a317c3c7cd"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/dienstleistungen/fresenius-kabi-homecare-ausserklinische-versorgung",
-          "uuid": "7a0fcb409335eb99420a9da60fb994aa5632d952"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/pressemitteilungen/das-neue-autofusion-set",
-          "uuid": "640954aad319eb3c59351b499db2d737321c2ca7"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/unternehmen/reach",
-          "uuid": "6523cdbbc6c24f7f2d12d0076826b57b7d420d0c"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/unternehmen/einblicke/leben-mit-parenteraler-ernaehrung",
-          "uuid": "d51d95a05d992ce29683c84169f6e096b591a84c"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/dienstleistungen/wissensakademie-online-lernangebot",
-          "uuid": "73e04750aadba4a9f09f8c663280ff652e135ed3"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/dienstleistungen/wissenschaftlicher-service",
-          "uuid": "3bddb66421bce5382c9374ddb207884f65f7958c"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/pressemitteilungen/aus-der-pflege-fuer-die-pflege--queen-silvia-nursing-award-2023-",
-          "uuid": "2d2e2afcb4158223950e2cccc439f483928dd3ed"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio",
-          "uuid": "d0d83e172d310e63a6c9418b62349124039aa55e"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/applikationstechnik-und-systeme/monitoring",
-          "uuid": "af1dedc21f8fb4907c2b117b59246dcd3dcbdd1a"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/downloads/produktbilder-medizinprodukte",
-          "uuid": "c8bd8c9ec14f3fedbcd2c842e0190e19075eb4bc"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/intravenoese-arzneimittel/informationen-fuer-patienten",
-          "uuid": "e1a3f301980d3e4b10c02e98b464455a9b45447a"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/kontakt/kontaktformular_datenschutz/vielen-dank-fuer-ihre-nachricht---kontaktformular-datenschutz",
-          "uuid": "b28fe5eab2b002dc3af3e5898830aadd57dc3119"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/autofusion-set",
-          "uuid": "01f2ad23aa4f20c52b3e4bf59f79f10472946b28"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/downloads",
-          "uuid": "6b006d6cc03052c069d0d7823add6580f015e08a"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/ergebnisse",
-          "uuid": "ea9893e2a293f46ef1d19410508ef0bfc700ebbb"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/downloads/produktbilder-klinische-ernaehrung",
-          "uuid": "bfa46fd446268e71b4e611fbe3a1f77fd3018541"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/kontakt/medizinische-notfaelle",
-          "uuid": "c65c3c606cf938f64e0ecdda2e26974d112c923c"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/downloads/downloadbereich-logo-fresenius-kabi-deutschland",
-          "uuid": "cc94da2a27697fadb7e9a6c411bf18ba87e23e6c"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/kontakt/kundenberatung",
-          "uuid": "b3593ac51c498272f862e51fff1a8db47840c0cc"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/errors",
-          "uuid": "04dba993a066440b733a2e53cbbf67fc4156b8df"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/information-zur-versorgungslage",
-          "uuid": "9fdfa6b37fe7903a4bf5b73bb1738d9665ff94f5"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/kontakt/kontaktformular_datenschutz",
-          "uuid": "a32fedc2e89a0854e739a07d90205d61b1d72697"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/kontakt/kontaktformular",
-          "uuid": "a23f65c6471da153e9e1c836be039f6e05762e5e"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/disclaimer",
-          "uuid": "52a646780af61794b4a473cbca548ab7c217eb04"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/errors/404",
-          "uuid": "4a5fce42f14df5e8251bbac8757956b6ab94cbae"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/kontakt/kontaktformular/danke-fuer-ihre-nachricht",
-          "uuid": "c89d8eca81a246960ff91888b7494c101224655b"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/impressum",
-          "uuid": "3945960f1158e915144ccf6918d4bf80e2408a76"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/rechtliche-hinweise",
-          "uuid": "664fde484c754011dd673f31aba4b1181f81688f"
+          "url": "https://www.fresenius-kabi.com/de/portfolio/intravenoese-arzneimittel",
+          "uuid": "fc5384c7e65e697df0edd85afd47e1a7b2da1884"
         }
       ]
     },
     {
-      "name": "'Product Listing Page'",
-      "cluster": 2,
-      "pages": [
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/transfusionsmedizin-und-zelltherapie/apherese",
-          "uuid": "69ebf05fdaa8f9dd5316c2f9db63fe32a8102db2"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/transfusionsmedizin-und-zelltherapie/plasmapherese",
-          "uuid": "e0ace268feb522e2358ed099b1879708c343c6b7"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/applikationstechnik-und-systeme/monitoring/anaesthesiemonitoring-conox-qm-7000m",
-          "uuid": "943c1c57528413430ff93c27241b02ca297f5bb9"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/transfusionsmedizin-und-zelltherapie/apherese/com-tec",
-          "uuid": "95f1c3688d9e964dc7582fc97ad41daf046bb2d9"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/transfusionsmedizin-und-zelltherapie/apherese/amicore",
-          "uuid": "28d2d81edfc68c69135c500e4ace9421d74ef4dc"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/transfusionsmedizin-und-zelltherapie/plasmapherese/aurora",
-          "uuid": "2807f23eb498f3ae885dcab4ef08e18d4a7f9717"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/transfusionsmedizin-und-zelltherapie/apherese/amicus",
-          "uuid": "8bbe7101b5f4500b7c289921fd08f6d8c3a42570"
-        }
-      ]
-    },
-    {
-      "name": "'Product Listing'",
-      "cluster": 3,
-      "pages": [
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/spuelloesungen-und-applikationen-urologie/laxantien/freka-clyss",
-          "uuid": "73b8f9fe3a8d509bcba95b594eac65e6fed51b33"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/spuelloesungen-und-applikationen-urologie/ablaufschlaeuche-und-adapter/zuspitz-adapter-care-lock-einzeln-steril",
-          "uuid": "b5b14a4568cb7b69aa7b076502dc5ba86a42afc3"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/spuelloesungen-und-applikationen-urologie/auffang-und-aufhaengesysteme-fuer-spuelloesungen",
-          "uuid": "66275ccf0f5c5f0d142d2129be7fc38feaf78434"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/spuelloesungen-und-applikationen-urologie/auffang-und-aufhaengesysteme-fuer-spuelloesungen/endoschild",
-          "uuid": "dfa0a84fab16b68bbc203be46434d9ad4397c95d"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/spuelloesungen-und-applikationen-urologie/laxantien",
-          "uuid": "832881b3f4a0346b0a544b548c94174b852e2777"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/spuelloesungen-und-applikationen-urologie/spuelloesungen",
-          "uuid": "f7e5c54d828b98abfb4870b93a91e633f12ea0dd"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/spuelloesungen-und-applikationen-urologie/ablaufschlaeuche-und-adapter",
-          "uuid": "3a931c0ea6934d2606d0370ead0f76876d1f66fb"
-        }
-      ]
-    },
-    {
-      "name": "'Form Page'",
+      "name": "Corporate Homepage",
       "cluster": 4,
       "pages": [
         {
-          "url": "https://www.fresenius-kabi.com/de/kontakt/technischer-service",
-          "uuid": "b5f6e3d269a33664d4b53b84ce1326bbd3467ea8"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/dienstleistungen/technischer-service",
-          "uuid": "adc8ce5df82ca8f83b686403f3d0df3ba30f5060"
-        }
-      ]
-    },
-    {
-      "name": "'Dashboard'",
-      "cluster": 5,
-      "pages": [
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/diben-1-5-kcal-hp",
-          "uuid": "f27c098391646c408249f1b52abda5752e34eef0"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/applikationstechnik-und-systeme/applikationstechnik-und-systeme-fuer-die-enterale-ernaehrung/applikationssysteme-fuer-die-enterale-ernaehrung/enterale-ernaehrungssonden/austauschsysteme/freka-button",
-          "uuid": "bd9e621f7a0091e763665d5c3283b09efa9948af"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente/frebini-energy",
-          "uuid": "a7af19d202f9edba9908eaca5554d811d21cd0a3"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/medizinprodukte/applikationstechnik-und-systeme/applikationstechnik-und-systeme-fuer-die-enterale-ernaehrung/applikationssysteme-fuer-die-enterale-ernaehrung/enterale-ernaehrungssonden/austauschsysteme",
-          "uuid": "66c98eb01f7176f20efb8d5aa64e1047a1fafc82"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/downloads",
-          "uuid": "7de809a72d13d9cae78a704552ba28dc8ef2f40e"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/nahrungsergaenzungsmittel",
-          "uuid": "e52080ecd4d580ecda9c57aeb20d20c093b43ea8"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung/sondennahrung-und-enterale-supplemente",
-          "uuid": "e3c8c30904a0d3e94079b0f87a8c00ea63f9c796"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/enterale-ernaehrung",
-          "uuid": "e5a4f9f4ccdc6f2749d5872a9554423fbf60825b"
-        }
-      ]
-    },
-    {
-      "name": "'Dashboard Template'",
-      "cluster": 6,
-      "pages": [
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/infusionen/behoerdlich-beauflagtes-schulungsmaterial-fuer-hes---produkte",
-          "uuid": "f797a46bd147e6bc52ea398bb79d9ab63965acf8"
-        }
-      ]
-    },
-    {
-      "name": "'Portfolio Showcase'",
-      "cluster": 7,
-      "pages": [
-        {
-          "url": "https://www.fresenius-kabi.com/de/portfolio/klinische-ernaehrung/nahrungsergaenzungsmittel/sideral",
-          "uuid": "618d153a57718268388cdea8c70ede61bdf18114"
-        }
-      ]
-    },
-    {
-      "name": "Search Results Page",
-      "cluster": 8,
-      "pages": [
-        {
-          "url": "https://www.fresenius-kabi.com/de/karriere",
-          "uuid": "83be2a4a8cfc81687352b8ad78b1ec3a4bbc9d7d"
-        }
-      ]
-    },
-    {
-      "name": "'Photo Blog Page'",
-      "cluster": 9,
-      "pages": [
-        {
-          "url": "https://www.fresenius-kabi.com/de/unternehmen/soziales-engagement/aktivhelfentage/aktivhelfen_tag_in_hamburg_2023",
-          "uuid": "d8a3ae9052c8dbf015e867a152aaf0b5cc80f336"
-        }
-      ]
-    },
-    {
-      "name": "'Content Detail Page'",
-      "cluster": 10,
-      "pages": [
-        {
-          "url": "https://www.fresenius-kabi.com/de/dienstleistungen/versorgungsmanagement-von-der-klinik-nach-hause/fuer-pflegeheime-und-pflegedienste",
-          "uuid": "21af6c8bedcd35fd6d10ac9ae0ba6fe8e15a19e2"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/dienstleistungen/versorgungsmanagement-von-der-klinik-nach-hause/fuer-kliniken",
-          "uuid": "d277b91bea24df4d35b63e17a0fe5257e6140682"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/dienstleistungen/versorgungsmanagement-von-der-klinik-nach-hause/fuer-patienten-und-angehoerige",
-          "uuid": "03e0886b0f4b21398b8301385219c6b497063689"
-        }
-      ]
-    },
-    {
-      "name": "'Dashboard Template'",
-      "cluster": 11,
-      "pages": [
-        {
-          "url": "https://www.fresenius-kabi.com/de/dienstleistungen/logistik-management/auftragsabwicklung/auftragsbestaetigung",
-          "uuid": "2e74b8c383f8eabb1dea053c90d5fd3e421807b8"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/dienstleistungen/logistik-management/auftragsabwicklung",
-          "uuid": "ad9c53d5a89746ec05fefac7df831bb65e1645e2"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/dienstleistungen/logistik-management/kontakt-zur-logistik",
-          "uuid": "133c1a5e9a006794702a7e80986f70b37dd6f5b7"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/dienstleistungen/logistik-management/entsorgung",
-          "uuid": "9b8a334815400ad36e429f5e014e93e01dbca8b0"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/dienstleistungen/logistik-management/eclass",
-          "uuid": "64309c34f2efc4f4188d67efedeca14a7c1179b8"
-        },
-        {
-          "url": "https://www.fresenius-kabi.com/de/dienstleistungen/logistik-management/logistikzentrum-in-friedberg",
-          "uuid": "730360acd31a9af134163194981e30d76f7497c7"
-        }
-      ]
-    },
-    {
-      "name": "'Dashboard Template'",
-      "cluster": 12,
-      "pages": [
-        {
-          "url": "https://www.fresenius-kabi.com/de/downloads/produktbilder-medizinprodukte/produktbilder-applikationstechnik-und-systeme-enterale-ernaehrung",
-          "uuid": "31cb4e0d7f294fa89c61907282fe0186fedf4c27"
+          "url": "https://www.fresenius-kabi.com/de",
+          "uuid": "7fa8da69f71245979befd916028f8d85c5fb10d3"
         }
       ]
     }
