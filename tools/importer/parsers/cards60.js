@@ -1,98 +1,60 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Cards (cards60) header
-  const headerRow = ['Cards (cards60)'];
-  const rows = [];
+  // Helper to extract all text content (including links) from a node
+  function extractTextContent(node) {
+    const nodes = [];
+    // Title (h3 or h2)
+    const title = node.querySelector('.cmp-teaser__title');
+    if (title) nodes.push(title);
+    // Description (all paragraphs)
+    const desc = node.querySelector('.cmp-teaser__description');
+    if (desc) {
+      // Push all paragraphs as separate elements
+      desc.querySelectorAll('p').forEach(p => nodes.push(p));
+    }
+    // CTA (action link)
+    const cta = node.querySelector('.cmp-teaser__action-container a');
+    if (cta) nodes.push(cta);
+    return nodes;
+  }
 
-  // Helper: extract all text content as a block from imagetextblock cards
-  function extractImageTextBlock(block) {
-    // Get image element (only first image per card)
-    let image = block.querySelector('img');
-    // Compose all text content (title, description(s), CTA)
-    const textContent = [];
+  // Helper to extract image element from a block
+  function extractImage(block) {
+    const imageContainer = block.querySelector('.cmp-teaser__image');
+    if (imageContainer) {
+      const img = imageContainer.querySelector('img');
+      if (img) return img;
+    }
+    return null;
+  }
+
+  // Collect all card rows
+  const rows = [ ['Cards (cards60)'] ];
+
+  // 1. All .imagetextblock blocks (image + text)
+  element.querySelectorAll('.imagetextblock').forEach(block => {
+    const image = extractImage(block);
     const content = block.querySelector('.cmp-teaser__content');
-    if (content) {
-      // Title handling (preserve semantic, use <strong> for cards)
-      const title = content.querySelector('.cmp-teaser__title');
-      if (title) {
-        const strong = document.createElement('strong');
-        strong.textContent = title.textContent.trim();
-        textContent.push(strong);
-      }
-      // Description(s) - handle multiple paragraphs, HTML elements
-      const desc = content.querySelector('.cmp-teaser__description');
-      if (desc) {
-        Array.from(desc.childNodes).forEach(node => {
-          // Include paragraphs, spans, text nodes (avoid empty text)
-          if (node.nodeType === Node.ELEMENT_NODE || (node.nodeType === Node.TEXT_NODE && node.textContent.trim())) {
-            textContent.push(node);
-          }
-        });
-      }
-      // CTA (call-to-action)
-      const cta = content.querySelector('.cmp-teaser__action-link');
-      if (cta) {
-        textContent.push(cta);
+    if (image && content) {
+      const textNodes = extractTextContent(content);
+      if (textNodes.length) {
+        rows.push([image, textNodes]);
       }
     }
-    // If nothing extracted, fallback: get all <h3>, <p>, <a> children
-    if (textContent.length === 0) {
-      Array.from(block.querySelectorAll('h3, p, a')).forEach(el => {
-        textContent.push(el);
-      });
-    }
-    // Always return a row: [image, ...text]
-    return [image || '', textContent.length === 1 ? textContent[0] : textContent];
-  }
-
-  // Helper for .teaser (no image)
-  function extractTeaserBlock(teaser) {
-    const textContent = [];
-    const content = teaser.querySelector('.cmp-teaser__content');
-    if (content) {
-      // Title
-      const title = content.querySelector('.cmp-teaser__title');
-      if (title) {
-        const strong = document.createElement('strong');
-        strong.textContent = title.textContent.trim();
-        textContent.push(strong);
-      }
-      // CTA
-      const cta = content.querySelector('.cmp-teaser__action-link');
-      if (cta) {
-        textContent.push(cta);
-      }
-    }
-    // Fallback: all <h3>, <p>, <a>
-    if (textContent.length === 0) {
-      Array.from(teaser.querySelectorAll('h3, p, a')).forEach(el => {
-        textContent.push(el);
-      });
-    }
-    return ['', textContent.length === 1 ? textContent[0] : textContent];
-  }
-
-  // Find all imagetextblock cards
-  const cardBlocks = Array.from(element.querySelectorAll('.imagetextblock.teaser'));
-  cardBlocks.forEach(block => {
-    rows.push(extractImageTextBlock(block));
   });
 
-  // Find teaser-only cards (no image)
-  const cardsContainer = element.querySelector('.cmp-container_cards');
-  if (cardsContainer) {
-    const teasers = Array.from(cardsContainer.querySelectorAll(':scope > .teaser'));
-    teasers.forEach(teaser => {
-      rows.push(extractTeaserBlock(teaser));
-    });
-  }
+  // 2. All .cmp-container_cards .teaser blocks (no image, just text)
+  element.querySelectorAll('.cmp-container_cards .teaser').forEach(teaser => {
+    const content = teaser.querySelector('.cmp-teaser__content');
+    if (content) {
+      const textNodes = extractTextContent(content);
+      if (textNodes.length) {
+        rows.push(['', textNodes]);
+      }
+    }
+  });
 
-  // Compose the block table
-  const table = WebImporter.DOMUtils.createTable([
-    headerRow,
-    ...rows
-  ], document);
-
-  // Replace the original element
+  // Build and replace
+  const table = WebImporter.DOMUtils.createTable(rows, document);
   element.replaceWith(table);
 }

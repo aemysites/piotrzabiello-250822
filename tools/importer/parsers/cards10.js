@@ -1,51 +1,52 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // 1. Table header, matches example exactly
+  // Defensive: find the UL containing all cards
+  const ul = element.querySelector('ul.cmp-product-overview');
+  if (!ul) return;
+
+  // Table header row
   const headerRow = ['Cards (cards10)'];
+  const rows = [headerRow];
 
-  // 2. Get all cards (li elements)
-  const cardEls = Array.from(element.querySelectorAll('ul > li'));
-  
-  // 3. Map each card to a row: [Image, Text]
-  const rows = cardEls.map(card => {
-    // Image extraction: find <img> inside .cmp-image
-    const img = card.querySelector('.cmp-image img');
-    // Use <img> element as-is for the image cell
-    const imageCell = img;
+  // Get all LI elements (each card)
+  const items = ul.querySelectorAll(':scope > li.cmp-product-overview__item');
 
-    // Text extraction: find title and CTA
-    const teaserContent = card.querySelector('.cmp-teaser__content');
-    let textCellContent = [];
-    if (teaserContent) {
+  items.forEach((li) => {
+    // Find the teaser link (contains image and text)
+    const teaserLink = li.querySelector('a.cmp-teaser__link, a.cmp-teaser__link.lock');
+    if (!teaserLink) return;
+
+    // --- IMAGE CELL ---
+    // Find the image container
+    let imageEl = null;
+    const imgContainer = teaserLink.querySelector('.cmp-teaser__image');
+    if (imgContainer) {
+      // Find the actual <img> inside
+      imageEl = imgContainer.querySelector('img');
+    }
+    // Defensive: If no image found, skip this card
+    if (!imageEl) return;
+
+    // --- TEXT CELL ---
+    // Find the content container
+    const contentDiv = teaserLink.querySelector('.cmp-teaser__content');
+    const textCellContent = [];
+    if (contentDiv) {
       // Title (h2)
-      const title = teaserContent.querySelector('.cmp-teaser__title');
-      if (title) {
-        // Keep semantic heading (h2)
-        textCellContent.push(title);
-      }
-      // No description in this HTML
+      const title = contentDiv.querySelector('.cmp-teaser__title');
+      if (title) textCellContent.push(title);
+      // Button (call to action)
+      const button = contentDiv.querySelector('.cmp-teaser__button');
+      if (button) textCellContent.push(button);
     }
-    // CTA: find the link/button
-    const teaserLink = card.querySelector('.cmp-teaser__link');
-    if (teaserLink) {
-      const button = teaserLink.querySelector('.cmp-teaser__button');
-      if (button) {
-        // Create a <a> tag for the CTA, referencing the link
-        const cta = document.createElement('a');
-        cta.href = teaserLink.getAttribute('href');
-        cta.textContent = button.textContent.trim();
-        textCellContent.push(document.createElement('br'));
-        textCellContent.push(cta);
-      }
-    }
-    // If no heading or CTA, fallback to empty string
-    if (textCellContent.length === 0) textCellContent = [''];
+    // If no text content, skip this card
+    if (textCellContent.length === 0) return;
 
-    return [imageCell, textCellContent];
+    // Add row: [image, text content]
+    rows.push([imageEl, textCellContent]);
   });
 
-  // 4. Create the table
-  const table = WebImporter.DOMUtils.createTable([headerRow, ...rows], document);
-  // 5. Replace original element
+  // Create table and replace element
+  const table = WebImporter.DOMUtils.createTable(rows, document);
   element.replaceWith(table);
 }

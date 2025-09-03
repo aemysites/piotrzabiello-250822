@@ -1,42 +1,42 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Find all top-level .cmp-container blocks which form the two columns
-  const containers = Array.from(element.querySelectorAll(':scope > div > .cmp-container'));
+  // 1. Find the first list (cmp-faq_list)
+  const firstList = element.querySelector('.cmp-faq_list');
 
-  let leftCol = null;
-  let rightColItems = [];
-
-  if (containers.length === 2) {
-    // Left column: FAQ list ul
-    leftCol = containers[0].querySelector('.cmp-faq_list .cmp-list') || containers[0].querySelector('.cmp-list');
-
-    // Right column: social icons & menu list
-    // Social block
-    const socialBlock = containers[1].querySelector('.cmp-social_container .cmp-container') || containers[1].querySelector('.cmp-container');
-    const socialButtons = socialBlock ? Array.from(socialBlock.querySelectorAll('.button a')) : [];
-    // Footer menu list
-    const menuList = containers[1].querySelector('.cmp-menu_list .cmp-list') || containers[1].querySelector('.cmp-list');
-    if (socialButtons.length) rightColItems.push(...socialButtons);
-    if (menuList) rightColItems.push(menuList);
-  } else {
-    // fallback for unexpected structure
-    leftCol = element.querySelector('.cmp-faq_list .cmp-list') || element.querySelector('.cmp-list');
-    const socialBlock = element.querySelector('.cmp-social_container .cmp-container') || element.querySelector('.cmp-container');
-    const socialButtons = socialBlock ? Array.from(socialBlock.querySelectorAll('.button a')) : [];
-    const menuList = element.querySelector('.cmp-menu_list .cmp-list') || element.querySelector('.cmp-list');
-    if (socialButtons.length) rightColItems.push(...socialButtons);
-    if (menuList) rightColItems.push(menuList);
+  // 2. Find the social icons container (cmp-social_container)
+  const socialContainer = element.querySelector('.cmp-social_container');
+  let socialIcons = null;
+  if (socialContainer) {
+    // Get all direct .button children (social icons)
+    const socialButtons = Array.from(socialContainer.querySelectorAll('.button'));
+    if (socialButtons.length) {
+      // Wrap all social buttons in a div for layout
+      const socialDiv = document.createElement('div');
+      socialDiv.style.display = 'flex';
+      socialDiv.style.gap = '16px';
+      socialButtons.forEach(btn => socialDiv.appendChild(btn));
+      socialIcons = socialDiv;
+    }
   }
-  // Edge case handling
-  if (!leftCol) leftCol = document.createElement('div');
-  if (rightColItems.length === 0) rightColItems = [document.createElement('div')];
 
-  // Table rows: header row (single cell), content row (two columns)
+  // 3. Find the second list (cmp-menu_list)
+  const secondList = element.querySelector('.cmp-menu_list');
+
+  // Build the columns row (always 3 columns for this layout)
+  const columnsRow = [firstList, socialIcons, secondList];
+
+  // Table header (must match block name exactly)
+  const headerRow = ['Columns (columns38)'];
+
+  // Table cells
   const cells = [
-    ['Columns (columns38)'],
-    [leftCol, rightColItems]
+    headerRow,
+    columnsRow
   ];
 
-  const table = WebImporter.DOMUtils.createTable(cells, document);
-  element.replaceWith(table);
+  // Create the block table
+  const block = WebImporter.DOMUtils.createTable(cells, document);
+
+  // Replace the original element with the block
+  element.replaceWith(block);
 }
