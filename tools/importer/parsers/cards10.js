@@ -1,52 +1,38 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Defensive: find the UL containing all cards
-  const ul = element.querySelector('ul.cmp-product-overview');
-  if (!ul) return;
-
-  // Table header row
+  // Table header
   const headerRow = ['Cards (cards10)'];
   const rows = [headerRow];
 
-  // Get all LI elements (each card)
-  const items = ul.querySelectorAll(':scope > li.cmp-product-overview__item');
+  // Defensive: Find all card items
+  const items = element.querySelectorAll('ul.cmp-product-overview > li.cmp-product-overview__item');
 
-  items.forEach((li) => {
-    // Find the teaser link (contains image and text)
-    const teaserLink = li.querySelector('a.cmp-teaser__link, a.cmp-teaser__link.lock');
+  items.forEach((item) => {
+    // Find the teaser link (contains all card content)
+    const teaserLink = item.querySelector('a.cmp-teaser__link');
     if (!teaserLink) return;
 
-    // --- IMAGE CELL ---
-    // Find the image container
-    let imageEl = null;
-    const imgContainer = teaserLink.querySelector('.cmp-teaser__image');
-    if (imgContainer) {
-      // Find the actual <img> inside
-      imageEl = imgContainer.querySelector('img');
-    }
-    // Defensive: If no image found, skip this card
-    if (!imageEl) return;
+    // Find the image element (first image in the card)
+    let imageEl = teaserLink.querySelector('.cmp-product-overview-teaser__image img, .cmp-teaser__image img');
+    // Defensive: If not found, try any img inside teaserLink
+    if (!imageEl) imageEl = teaserLink.querySelector('img');
 
-    // --- TEXT CELL ---
-    // Find the content container
-    const contentDiv = teaserLink.querySelector('.cmp-teaser__content');
-    const textCellContent = [];
-    if (contentDiv) {
-      // Title (h2)
-      const title = contentDiv.querySelector('.cmp-teaser__title');
-      if (title) textCellContent.push(title);
-      // Button (call to action)
-      const button = contentDiv.querySelector('.cmp-teaser__button');
-      if (button) textCellContent.push(button);
-    }
-    // If no text content, skip this card
-    if (textCellContent.length === 0) return;
+    // Find the title (h2)
+    const titleEl = teaserLink.querySelector('.cmp-teaser__title, h2');
+    // Find the button (call-to-action)
+    const buttonEl = teaserLink.querySelector('.cmp-teaser__button, button');
 
-    // Add row: [image, text content]
-    rows.push([imageEl, textCellContent]);
+    // Compose the text cell
+    const textCell = [];
+    if (titleEl) textCell.push(titleEl);
+    if (buttonEl) textCell.push(buttonEl);
+
+    // Compose the row: [image, text]
+    const row = [imageEl, textCell];
+    rows.push(row);
   });
 
-  // Create table and replace element
-  const table = WebImporter.DOMUtils.createTable(rows, document);
-  element.replaceWith(table);
+  // Create the block table
+  const block = WebImporter.DOMUtils.createTable(rows, document);
+  element.replaceWith(block);
 }

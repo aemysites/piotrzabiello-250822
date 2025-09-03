@@ -1,60 +1,75 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Helper to extract all text content (including links) from a node
-  function extractTextContent(node) {
-    const nodes = [];
-    // Title (h3 or h2)
-    const title = node.querySelector('.cmp-teaser__title');
-    if (title) nodes.push(title);
-    // Description (all paragraphs)
-    const desc = node.querySelector('.cmp-teaser__description');
-    if (desc) {
-      // Push all paragraphs as separate elements
-      desc.querySelectorAll('p').forEach(p => nodes.push(p));
-    }
-    // CTA (action link)
-    const cta = node.querySelector('.cmp-teaser__action-container a');
-    if (cta) nodes.push(cta);
-    return nodes;
+  // Helper to extract all card blocks
+  function getCardsFromImagetextblocks(root) {
+    const cards = [];
+    const blocks = Array.from(root.querySelectorAll('.imagetextblock.teaser'));
+    blocks.forEach(block => {
+      // Image: find .cmp-teaser__image img
+      const imageWrap = block.querySelector('.cmp-teaser__image');
+      let img = null;
+      if (imageWrap) {
+        img = imageWrap.querySelector('img');
+      }
+      // Text: title, description, CTA
+      const content = block.querySelector('.cmp-teaser__content');
+      // Instead of picking only title/desc/cta, grab all content children except the image
+      const textCell = [];
+      if (content) {
+        // Get all children except .cmp-teaser__image and .cmp-teaser__caption
+        Array.from(content.children).forEach(child => {
+          if (!child.classList.contains('cmp-teaser__image') && !child.classList.contains('cmp-teaser__caption')) {
+            textCell.push(child.cloneNode(true));
+          }
+        });
+      }
+      cards.push([
+        img ? img.cloneNode(true) : '',
+        textCell.length === 1 ? textCell[0] : textCell
+      ]);
+    });
+    return cards;
   }
 
-  // Helper to extract image element from a block
-  function extractImage(block) {
-    const imageContainer = block.querySelector('.cmp-teaser__image');
-    if (imageContainer) {
-      const img = imageContainer.querySelector('img');
-      if (img) return img;
-    }
-    return null;
+  // Helper to extract cards from teaser blocks (bottom grid)
+  function getCardsFromTeasers(root) {
+    const cards = [];
+    const teasers = Array.from(root.querySelectorAll('.teaser'));
+    teasers.forEach(teaser => {
+      // No image, so use variant: no images
+      const content = teaser.querySelector('.cmp-teaser__content');
+      const textCell = [];
+      if (content) {
+        Array.from(content.children).forEach(child => {
+          textCell.push(child.cloneNode(true));
+        });
+      }
+      cards.push([
+        '', // No image
+        textCell.length === 1 ? textCell[0] : textCell
+      ]);
+    });
+    return cards;
   }
 
-  // Collect all card rows
-  const rows = [ ['Cards (cards60)'] ];
+  // Find the main cards container
+  let cardsContainer = element.querySelector('.cmp-container_cards');
+  if (!cardsContainer) {
+    cardsContainer = element;
+  }
 
-  // 1. All .imagetextblock blocks (image + text)
-  element.querySelectorAll('.imagetextblock').forEach(block => {
-    const image = extractImage(block);
-    const content = block.querySelector('.cmp-teaser__content');
-    if (image && content) {
-      const textNodes = extractTextContent(content);
-      if (textNodes.length) {
-        rows.push([image, textNodes]);
-      }
-    }
-  });
+  // Compose header
+  const headerRow = ['Cards (cards60)'];
+  const rows = [headerRow];
 
-  // 2. All .cmp-container_cards .teaser blocks (no image, just text)
-  element.querySelectorAll('.cmp-container_cards .teaser').forEach(teaser => {
-    const content = teaser.querySelector('.cmp-teaser__content');
-    if (content) {
-      const textNodes = extractTextContent(content);
-      if (textNodes.length) {
-        rows.push(['', textNodes]);
-      }
-    }
-  });
+  // Add main image-text cards (top section)
+  rows.push(...getCardsFromImagetextblocks(element));
 
-  // Build and replace
-  const table = WebImporter.DOMUtils.createTable(rows, document);
-  element.replaceWith(table);
+  // Add teaser cards (bottom grid)
+  rows.push(...getCardsFromTeasers(cardsContainer));
+
+  // Create block table
+  const block = WebImporter.DOMUtils.createTable(rows, document);
+  // Replace original element
+  element.replaceWith(block);
 }
