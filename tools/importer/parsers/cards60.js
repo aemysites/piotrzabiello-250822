@@ -1,75 +1,82 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Helper to extract all card blocks
-  function getCardsFromImagetextblocks(root) {
-    const cards = [];
-    const blocks = Array.from(root.querySelectorAll('.imagetextblock.teaser'));
-    blocks.forEach(block => {
-      // Image: find .cmp-teaser__image img
-      const imageWrap = block.querySelector('.cmp-teaser__image');
-      let img = null;
-      if (imageWrap) {
-        img = imageWrap.querySelector('img');
-      }
-      // Text: title, description, CTA
-      const content = block.querySelector('.cmp-teaser__content');
-      // Instead of picking only title/desc/cta, grab all content children except the image
-      const textCell = [];
-      if (content) {
-        // Get all children except .cmp-teaser__image and .cmp-teaser__caption
-        Array.from(content.children).forEach(child => {
-          if (!child.classList.contains('cmp-teaser__image') && !child.classList.contains('cmp-teaser__caption')) {
-            textCell.push(child.cloneNode(true));
-          }
-        });
-      }
-      cards.push([
-        img ? img.cloneNode(true) : '',
-        textCell.length === 1 ? textCell[0] : textCell
-      ]);
-    });
-    return cards;
+  // Helper to get all card blocks (image-text pairs)
+  function getImageTextBlocks(root) {
+    return Array.from(root.querySelectorAll('.imagetextblock.teaser, .imagetextblock.teaser.cmp-no-space'));
   }
 
-  // Helper to extract cards from teaser blocks (bottom grid)
-  function getCardsFromTeasers(root) {
-    const cards = [];
-    const teasers = Array.from(root.querySelectorAll('.teaser'));
-    teasers.forEach(teaser => {
-      // No image, so use variant: no images
-      const content = teaser.querySelector('.cmp-teaser__content');
-      const textCell = [];
-      if (content) {
-        Array.from(content.children).forEach(child => {
-          textCell.push(child.cloneNode(true));
-        });
-      }
-      cards.push([
-        '', // No image
-        textCell.length === 1 ? textCell[0] : textCell
-      ]);
-    });
-    return cards;
+  // Helper to get all teaser cards in the last container
+  function getTeaserCards(root) {
+    const cardsContainer = Array.from(root.querySelectorAll('.cmp-container_cards')).pop();
+    if (!cardsContainer) return [];
+    return Array.from(cardsContainer.querySelectorAll('.teaser'));
   }
 
-  // Find the main cards container
-  let cardsContainer = element.querySelector('.cmp-container_cards');
-  if (!cardsContainer) {
-    cardsContainer = element;
-  }
-
-  // Compose header
+  // Compose the header row
   const headerRow = ['Cards (cards60)'];
-  const rows = [headerRow];
+  const rows = [];
 
-  // Add main image-text cards (top section)
-  rows.push(...getCardsFromImagetextblocks(element));
+  // 1. Parse image-text blocks (main cards)
+  const imageTextBlocks = getImageTextBlocks(element);
+  imageTextBlocks.forEach(block => {
+    // Find image
+    const imageWrap = block.querySelector('.cmp-teaser__image');
+    let imgEl = null;
+    if (imageWrap) {
+      imgEl = imageWrap.querySelector('img');
+    }
+    // Find text content
+    const contentWrap = block.querySelector('.cmp-teaser__content');
+    const textCell = document.createElement('div');
+    if (contentWrap) {
+      // Title
+      const title = contentWrap.querySelector('.cmp-teaser__title');
+      if (title) {
+        textCell.appendChild(title.cloneNode(true));
+      }
+      // Description (can have multiple paragraphs)
+      const desc = contentWrap.querySelector('.cmp-teaser__description');
+      if (desc) {
+        Array.from(desc.childNodes).forEach(node => {
+          textCell.appendChild(node.cloneNode(true));
+        });
+      }
+      // CTA
+      const cta = contentWrap.querySelector('.cmp-teaser__action-container a');
+      if (cta) {
+        textCell.appendChild(cta.cloneNode(true));
+      }
+    }
+    // Only add if image and text exist
+    if (imgEl && textCell.childNodes.length) {
+      rows.push([imgEl, textCell]);
+    }
+  });
 
-  // Add teaser cards (bottom grid)
-  rows.push(...getCardsFromTeasers(cardsContainer));
+  // 2. Parse teaser cards (bottom grid)
+  const teaserCards = getTeaserCards(element);
+  teaserCards.forEach(teaser => {
+    const content = teaser.querySelector('.cmp-teaser__content');
+    if (!content) return;
+    let imgCell = '';
+    const textCell = document.createElement('div');
+    // Title (as heading link)
+    const title = content.querySelector('.cmp-teaser__title');
+    if (title) {
+      textCell.appendChild(title.cloneNode(true));
+    }
+    // CTA
+    const cta = content.querySelector('.cmp-teaser__action-container a');
+    if (cta) {
+      textCell.appendChild(cta.cloneNode(true));
+    }
+    if (textCell.childNodes.length) {
+      rows.push([imgCell, textCell]);
+    }
+  });
 
-  // Create block table
-  const block = WebImporter.DOMUtils.createTable(rows, document);
-  // Replace original element
-  element.replaceWith(block);
+  // Build table
+  const cells = [headerRow, ...rows];
+  const table = WebImporter.DOMUtils.createTable(cells, document);
+  element.replaceWith(table);
 }

@@ -12,14 +12,13 @@
 /* global WebImporter */
 /* eslint-disable no-console */
 import columns2Parser from './parsers/columns2.js';
-import columns63Parser from './parsers/columns63.js';
 import columns62Parser from './parsers/columns62.js';
-import columns18Parser from './parsers/columns18.js';
-import accordion64Parser from './parsers/accordion64.js';
+import columns63Parser from './parsers/columns63.js';
 import cards10Parser from './parsers/cards10.js';
+import accordion64Parser from './parsers/accordion64.js';
 import embedVideo32Parser from './parsers/embedVideo32.js';
-import columns38Parser from './parsers/columns38.js';
 import cards60Parser from './parsers/cards60.js';
+import columns38Parser from './parsers/columns38.js';
 import headerParser from './parsers/header.js';
 import metadataParser from './parsers/metadata.js';
 import cleanupTransformer from './transformers/cleanup.js';
@@ -37,24 +36,25 @@ import {
 const parsers = {
   metadata: metadataParser,
   columns2: columns2Parser,
-  columns63: columns63Parser,
   columns62: columns62Parser,
-  columns18: columns18Parser,
-  accordion64: accordion64Parser,
+  columns63: columns63Parser,
   cards10: cards10Parser,
+  accordion64: accordion64Parser,
   embedVideo32: embedVideo32Parser,
-  columns38: columns38Parser,
   cards60: cards60Parser,
+  columns38: columns38Parser,
   ...customParsers,
 };
 
-const transformers = {
-  cleanup: cleanupTransformer,
-  images: imageTransformer,
-  links: linkTransformer,
-  sections: sectionsTransformer,
-  ...customTransformers,
-};
+const transformers = [
+  cleanupTransformer,
+  imageTransformer,
+  linkTransformer,
+  sectionsTransformer,
+  ...(Array.isArray(customTransformers)
+    ? customTransformers
+    : Object.values(customTransformers)),
+];
 
 // Additional page elements to parse that are not included in the inventory
 const pageElements = [{ name: 'metadata' }, ...customElements];
@@ -65,7 +65,7 @@ WebImporter.Import = {
   ),
   transform: (hookName, element, payload) => {
     // perform any additional transformations to the page
-    Object.values(transformers).forEach((transformerFn) => (
+    transformers.forEach((transformerFn) => (
       transformerFn.call(this, hookName, element, payload)
     ));
   },

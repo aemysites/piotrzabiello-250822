@@ -1,21 +1,24 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Extract left column: the cookie description text
-  const leftCol = element.querySelector('.b-content') || document.createElement('div');
-  // Extract right column: the cookie buttons
-  const rightCol = element.querySelector('.b-buttons') || document.createElement('div');
+  // Defensive: get main content and button area
+  const content = element.querySelector('.b-content');
+  const buttons = element.querySelector('.b-buttons');
 
-  // Table header row: must match block name exactly
+  // Defensive: fallback if structure changes
+  const leftCol = content || element;
+  const rightCol = buttons || null;
+
+  // Table header as required
   const headerRow = ['Columns (columns2)'];
-  // Second row: left and right columns
-  const columnsRow = [leftCol, rightCol];
+  // Table content row: two columns, left is description, right is buttons
+  const contentRow = [leftCol, rightCol];
 
-  // Create the columns block table
+  // Build table
   const table = WebImporter.DOMUtils.createTable([
     headerRow,
-    columnsRow,
+    contentRow,
   ], document);
 
-  // Replace the original element with the table
+  // Replace original element
   element.replaceWith(table);
 }
