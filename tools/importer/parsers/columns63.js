@@ -1,34 +1,46 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Defensive: Get content and image containers
-  const content = element.querySelector('.cmp-teaser__content');
-  let textContent = null;
-  if (content) {
-    // Get description block (contains <p> tags)
-    const desc = content.querySelector('.cmp-teaser__description');
-    if (desc) {
-      textContent = desc;
+  // Defensive: Find main content and image containers
+  const contentBlock = element.querySelector('.cmp-teaser__content');
+  let textCell = null;
+  if (contentBlock) {
+    // Use the entire content block for text (includes description)
+    textCell = contentBlock;
+  } else {
+    // Fallback: use all paragraphs inside element
+    const paragraphs = Array.from(element.querySelectorAll('p'));
+    if (paragraphs.length) {
+      textCell = document.createElement('div');
+      paragraphs.forEach(p => textCell.appendChild(p));
+    } else {
+      textCell = document.createElement('div');
+      textCell.textContent = '';
     }
   }
 
-  // Get image block
+  // Defensive: Find image container
   const imageBlock = element.querySelector('.cmp-teaser__image');
-  let imageEl = null;
+  let imageCell = null;
   if (imageBlock) {
-    // Find the <img> inside
-    imageEl = imageBlock.querySelector('img');
+    // Use the image container directly
+    imageCell = imageBlock;
+  } else {
+    // Fallback: use first img
+    const img = element.querySelector('img');
+    if (img) {
+      imageCell = img;
+    } else {
+      imageCell = document.createElement('div');
+      imageCell.textContent = '';
+    }
   }
 
-  // Build the table rows
+  // Table header
   const headerRow = ['Columns (columns63)'];
-  const columnsRow = [textContent, imageEl];
+  // Table content row: text left, image right
+  const contentRow = [textCell, imageCell];
 
-  // Create the block table
-  const table = WebImporter.DOMUtils.createTable([
-    headerRow,
-    columnsRow,
-  ], document);
-
-  // Replace the original element
-  element.replaceWith(table);
+  const cells = [headerRow, contentRow];
+  const block = WebImporter.DOMUtils.createTable(cells, document);
+  element.replaceWith(block);
 }

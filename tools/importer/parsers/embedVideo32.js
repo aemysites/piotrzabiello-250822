@@ -1,52 +1,49 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Header row for the block table
+  // Header row as required
   const headerRow = ['Embed (embedVideo32)'];
 
-  // Find the <video> element and its <source>
+  // Defensive: find the <video> element and its <source>
   const video = element.querySelector('video');
-  let videoUrl = '';
+  let videoSrc = '';
   if (video) {
     const source = video.querySelector('source');
     if (source && source.src) {
-      videoUrl = source.src;
+      videoSrc = source.src;
     }
   }
 
-  // Defensive: collect any visible text content from the element
+  // Collect any visible text content from the element (e.g., overlay text)
   let textContent = '';
   // Get all text nodes inside the element
-  const walker = document.createTreeWalker(element, NodeFilter.SHOW_TEXT, {
-    acceptNode: (node) => {
-      // Only accept non-empty text
-      return node.textContent.trim() ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
-    }
-  });
+  const walker = document.createTreeWalker(element, NodeFilter.SHOW_TEXT, null, false);
   let node;
   while ((node = walker.nextNode())) {
-    textContent += node.textContent.trim() + ' ';
+    const txt = node.textContent.trim();
+    if (txt) {
+      textContent += (textContent ? ' ' : '') + txt;
+    }
   }
-  textContent = textContent.trim();
 
-  // Only proceed if we have a video URL
-  if (!videoUrl) {
+  // Only proceed if we have a video src
+  if (!videoSrc) {
+    element.remove();
     return;
   }
 
-  // Create a link element to the video file
+  // Create the link element for the video src
   const link = document.createElement('a');
-  link.href = videoUrl;
-  link.textContent = videoUrl;
+  link.href = videoSrc;
+  link.textContent = videoSrc;
 
-  // Compose cell content: include text if present
-  let cellContent;
+  // Compose cell content: include text content if present
+  let cellContent = [];
   if (textContent) {
-    cellContent = [textContent, document.createElement('br'), link];
-  } else {
-    cellContent = [link];
+    cellContent.push(textContent);
   }
+  cellContent.push(link);
 
-  // Content row: cell with all content
+  // Content row: cell with text (if any) and link
   const contentRow = [cellContent];
 
   // Build the table
