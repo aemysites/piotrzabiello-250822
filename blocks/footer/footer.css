@@ -1,3 +1,4 @@
+
 /* stylelint-disable no-descending-specificity */
 footer {
   font-size: var(--body-font-size-xs);
@@ -27,7 +28,7 @@ footer .footer p {
   color: #222;
 }
 
-.footer > div {
+.footer>div {
   max-width: 100%;
   margin: 0;
   padding: 0;
@@ -49,7 +50,7 @@ footer .footer p {
   flex-direction: row;
   align-items: center;
   width: 100%;
-  padding: 3px 0 3px 32px; /* Very slight vertical padding for tightness */
+  padding: 3px 0 3px 32px;
   box-sizing: border-box;
   min-height: 19px;
 }
@@ -62,19 +63,18 @@ footer .footer p {
   font-weight: 400;
   letter-spacing: 0.04em;
   text-align: left;
-  line-height: 1.22; /* Tighter line height for better vertical alignment */
+  line-height: 1.22;
 }
 
 /* Responsive: match left gutter to main content on small screens */
-@media (width <= 899px) {
+@media (width<=899px) {
   .footer .default-content-wrapper {
     padding-left: 24px;
   }
 }
 
-@media (width <= 599px) {
-  .footer > div,
-  .footer .default-content-wrapper {
+@media (width<=599px) {
+  .footer>div, .footer .default-content-wrapper {
     min-height: 16px;
   }
 
